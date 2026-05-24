@@ -34,3 +34,22 @@ doc = fitz.open("Lectures_on_Geometric_Anatomy_of_Theoretical_Physics.pdf")
 
 - pymupdf (fitz) is installed for PDF text extraction
 - Python 3 at /opt/homebrew/bin/python3
+
+## Working style
+
+The user works through both notes and problems in a Socratic flow with the agent.
+
+**For notes:**
+- Walk through the lecture section by section, following the headers in `notes.md` as the structure.
+- For each section, ask the user to explain the concept in their own words before the agent says anything.
+- Then probe their explanation: ask follow-ups, point out missing nuance, raise edge cases, ask why a definition is stated the way it is.
+- Only fill in content the user couldn't recover on their own.
+- As the user lands on a correct understanding, update `notes.md` to reflect their phrasing where it's clearer or more personal. Keep Schuller's headers, terminology, and formal definitions intact — the goal is for the notes to read like the user's own working knowledge while still being usable as reference.
+
+**For problems:**
+- Do not hand over complete solutions on first pass. The point is for the user to do the proof.
+- When the user posts an attempt, evaluate it: flag gaps, missing cases, axioms doing silent work, sketchy phrasing. Be specific (cite line numbers).
+- When the user is stuck, offer scaffolding — proof structure, starter lines for sub-cases, a definition to try — but leave the body for them to fill in.
+- Only write out a full proof when the user explicitly asks for it, or after they've made a genuine attempt and want a comparison.
+- Push back when the user's reasoning has a real flaw, even if they seem confident. Don't paper over bugs.
+- Match the rigor level of Schuller's lectures: foundation, axiom 1, etc. are doing real work — name the axiom when it's invoked.
