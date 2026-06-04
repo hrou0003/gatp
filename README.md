@@ -10,8 +10,8 @@ Notes and problems following Fredric Schuller's lecture series
 | 01 | Propositional logic | [notes](lec01-propositional-logic/notes.md) | [problems](lec01-propositional-logic/problems.md) | Done |
 | 02 | Topological spaces I | [notes](lec02-topological-spaces-i/notes.md) | [problems](lec02-topological-spaces-i/problems.md) | Done |
 | 03 | Topological spaces II | [notes](lec03-topological-spaces-ii/notes.md) | [problems](lec03-topological-spaces-ii/problems.md) | Done |
-| 04 | Topological spaces III | [notes](lec04-topological-spaces-iii/notes.md) | [problems](lec04-topological-spaces-iii/problems.md) | Done |
-| 05 | Topological spaces IV | [notes](lec05-topological-spaces-iv/notes.md) | [problems](lec05-topological-spaces-iv/problems.md) | Done |
+| 04 | Topological spaces III | [notes](lec04-topological-spaces-iii/notes.md) | [problems](lec04-topological-spaces-iii/problems.md) | In Progress |
+| 05 | Topological spaces IV | [notes](lec05-topological-spaces-iv/notes.md) | [problems](lec05-topological-spaces-iv/problems.md) | |
 | 06 | Differentiable manifolds I | [notes](lec06-differentiable-manifolds-i/notes.md) | [problems](lec06-differentiable-manifolds-i/problems.md) | |
 | 07 | Differentiable manifolds II | [notes](lec07-differentiable-manifolds-ii/notes.md) | [problems](lec07-differentiable-manifolds-ii/problems.md) | |
 | 08 | Tangent vectors | [notes](lec08-tangent-vectors/notes.md) | [problems](lec08-tangent-vectors/problems.md) | |
