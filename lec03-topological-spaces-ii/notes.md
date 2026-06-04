@@ -52,11 +52,17 @@ The three properties exist to make classes partition M cleanly:
 
 **Quotient:** M/∼ := {[m] | m ∈ M}. The set of equivalence classes.
 
-**Well-definedness on quotients.** When defining a map on M/∼ via a formula in a representative (e.g. `f([a]) := [a²]`), `[a]` doesn't pin down a unique `a`, so you must verify the formula respects the equivalence:
+**Well-definedness on quotients.** A map on M/∼ is **well-defined** if its output doesn't depend on which representative you pick from each class. Since `[a]` is a set (not a single element), any formula like `f([a]) := [a²]` secretly involves choosing a representative `a`. If someone else picks `a' ∈ [a]`, they must land in the same output class: `f([a']) = f([a])`.
+
+So you must verify:
 
 > if `a ∼ a'`, then the output class is the same.
 
+For binary operations like `[a] · [b] := [a · b]`, this becomes: if `a ∼ a'` and `b ∼ b'`, then `a · b ∼ a' · b'`.
+
 Example: define `f: ℤ/∼ → ℤ/∼` by `f([a]) := [a²]`, with `m ∼ n :⇔ 3 | (m − n)`. Check: if `3 | (a − a')`, does `3 | (a² − (a')²)`? Factor via difference of squares: `a² − (a')² = (a − a')(a + a')`. Since `3 | (a − a')`, it divides the product. So `a² ∼ (a')²`, and `f` is well-defined.
+
+Example (binary operation): is `[a] · [b] := [a · b]` well-defined on `ℤ/∼`? Assume `a ∼ a'` and `b ∼ b'`, i.e. `3 | (a − a')` and `3 | (b − b')`. Need to show `3 | (ab − a'b')`. Decompose: `ab − a'b' = b(a − a') + a'(b − b')`. Each term has a factor divisible by 3, so the sum is too. Hence `ab ∼ a'b'`.
 
 Without this check, the "function" might give different outputs for the same input depending on which representative you picked — i.e. it wouldn't actually be a function.
 
