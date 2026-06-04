@@ -9,6 +9,14 @@ A **topology** on M is 𝒪 ⊆ 𝒫(M) with:
 
 (M, 𝒪) is a **topological space**.
 
+## Why these axioms?
+
+The axioms are motivated by open sets in ℝ:
+
+- **Finite intersections:** (−1, 1) ∩ (0, 2) = (0, 1) is open. But ∩_{n=1}^∞ (−1/n, 1/n) = {0} is not. So only finite intersections are required.
+- **Arbitrary unions:** ∪_{n=1}^∞ (−n, n) = ℝ is open. Arbitrary unions of open sets stay open, so no restriction needed.
+- **∅ and M:** The empty union ∪∅ = ∅, so ∅ must be in 𝒪. The empty intersection ∩∅ = M (no sets to exclude anything), so M must be in 𝒪.
+
 ## Key examples
 
 | Topology | Definition |
@@ -31,6 +39,10 @@ A **topology** on M is 𝒪 ⊆ 𝒫(M) with:
 
 q: ℕ → M converges to a if ∀U ∈ 𝒪 : a ∈ U ⇒ ∃N : ∀n > N : q(n) ∈ U.
 
+"Eventually stays in every open set around a." Smaller open sets = closer to a. No distances needed.
+
+**Why topology matters:** To say anything is "converging" or "approaching" something, you need a topology. Without it, even vague claims like "theories are getting closer to truth" are meaningless — you'd need to know the open sets on theory space. (Non-transitive dice example: no real-valued quality function exists, so you can't rank things transitively.)
+
 - Chaotic: every sequence converges to every point
 - Discrete: only eventually constant sequences converge
 - Standard on ℝᵈ: usual ε-δ convergence
@@ -38,5 +50,7 @@ q: ℕ → M converges to a if ∀U ∈ 𝒪 : a ∈ U ⇒ ∃N : ∀n > N : q(n
 ## Continuity
 
 φ: M → N is **continuous** if pre-images of open sets are open: preim_φ(S) ∈ 𝒪_M for all S ∈ 𝒪_N.
+
+This generalises ε-δ: the ε-condition says "for every open interval around φ(a), the preimage contains an open interval around a" — exactly "preimage of open is open."
 
 **Homeomorphism:** bijection where both φ and φ⁻¹ are continuous. (M, 𝒪_M) ≅_top (N, 𝒪_N).
