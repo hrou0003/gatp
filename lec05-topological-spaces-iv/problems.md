@@ -2,6 +2,8 @@
 
 1. Show that (ℝ, 𝒪_std) is Hausdorff but (ℝ, {∅, ℝ}) is not.
 
+2. Prove that the discrete topology on any set M is Hausdorff.
+
 2. Find an open cover of (0, 1) with no finite subcover. Conclude (0, 1) is not compact.
 
 3. Prove that [0, 1] is compact using the Heine-Borel theorem.
