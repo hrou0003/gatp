@@ -2,9 +2,28 @@
 
 1. Let M = {a, b, c}. Verify that 𝒪 = {∅, {a}, {a, b}, M} is a topology on M.
 
+  - ∅, M ∈ 𝒪 by inspection.
+  - Finite intersections: non-trivial case is {a} ∩ {a,b} = {a} ∈ 𝒪.
+  - Arbitrary unions: non-trivial case is {a} ∪ {a,b} = {a,b} ∈ 𝒪.
+
 2. In the topology 𝒪 = {∅, {a}, {a, b}, M} on {a, b, c}, classify each subset as open, closed, both, or neither.
 
+  | Subset | Open | Closed |
+  |--------|------|--------|
+  | ∅ | yes | yes |
+  | {a} | yes | no (comp {b,c} ∉ 𝒪) |
+  | {b} | no | no (comp {a,c} ∉ 𝒪) |
+  | {c} | no | yes (comp {a,b} ∈ 𝒪) |
+  | {a,b} | yes | no (comp {c} ∉ 𝒪) |
+  | {a,c} | no | no (comp {b} ∉ 𝒪) |
+  | {b,c} | no | yes (comp {a} ∈ 𝒪) |
+  | M | yes | yes |
+
 3. Let q(n) = 1/(n+1) in ℝ. Does q converge in (a) discrete topology, (b) chaotic topology, (c) standard topology?
+
+  - (c) Standard: converges to 0. For any open U ∋ 0, U contains (−ε, ε). Pick N > 1/ε − 1.
+  - (a) Discrete: no. Only eventually constant sequences converge; q takes infinitely many distinct values.
+  - (b) Chaotic: converges to every point. Only open set containing any p is M, condition trivially satisfied.
 
 4. Prove that φ: (ℝ, 𝒪_std) → (ℝ, 𝒪_std), φ(x) = x² is continuous.
 
