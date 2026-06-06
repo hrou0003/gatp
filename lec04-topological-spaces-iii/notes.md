@@ -53,4 +53,6 @@ q: ℕ → M converges to a if ∀U ∈ 𝒪 : a ∈ U ⇒ ∃N : ∀n > N : q(n
 
 This generalises ε-δ: the ε-condition says "for every open interval around φ(a), the preimage contains an open interval around a" — exactly "preimage of open is open."
 
+**Why preimages, not images?** Continuity means "no tearing." The preimage condition detects tearing: φ(x) = 0 for x < 0, φ(x) = 1 for x ≥ 0. The open set (0.5, 1.5) in the codomain has preimage [0, ∞), which is not open — the boundary point 0 is the "tear." If images of open sets were required to be open, this function would pass (it maps open sets to open sets), but it's clearly discontinuous.
+
 **Homeomorphism:** bijection where both φ and φ⁻¹ are continuous. (M, 𝒪_M) ≅_top (N, 𝒪_N). Equivalently, a bijection that maps open sets to open sets (an open map). Both directions needed: a continuous bijection can still destroy structure (e.g. id: ℝ_std → ℝ_discrete is continuous bijection but φ⁻¹ is not — {0} is open in discrete but not standard).
