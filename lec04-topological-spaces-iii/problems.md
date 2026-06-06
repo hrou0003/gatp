@@ -27,9 +27,17 @@
 
 4. Prove that φ: (ℝ, 𝒪_std) → (ℝ, 𝒪_std), φ(x) = x² is continuous.
 
+  It suffices to check preimages of open intervals (they form a basis). Take (a, b) with 0 < a < b. preim_φ((a, b)) = {x | a < x² < b} = (−√b, −√a) ∪ (√a, √b), which is a union of open intervals, hence open. If a < 0 < b, preim_φ((a, b)) = (−√b, √b), also open. If b ≤ 0, preim_φ((a, b)) = ∅, open. So preimages of open intervals are open, hence φ is continuous.
+
 5. Show that (0, 1) and ℝ are homeomorphic (standard topologies).
 
+  φ(x) = tan(πx − π/2) is a composition of f(x) = πx − π/2 and tan. f is continuous (linear). tan is continuous: preim_tan((a, b)) = (arctan(a), arctan(b)), which is open. So preimages of basis elements are open, hence tan is continuous. Composition of continuous maps is continuous, so φ is continuous. φ⁻¹(y) = (arctan(y) + π/2)/π — arctan is continuous by the same argument (preim_arctan((a, b)) = (tan(a), tan(b)), open). So φ is a homeomorphism.
+
 6. Let N ⊂ M and 𝒪|_N = {U ∩ N | U ∈ 𝒪} be the induced topology. Prove that 𝒪|_N is a topology on N.
+
+  - ∅, N ∈ 𝒪|_N: ∅ ∩ N = ∅, M ∩ N = N.
+  - Finite intersections: (U₁ ∩ N) ∩ (U₂ ∩ N) = (U₁ ∩ U₂) ∩ N ∈ 𝒪|_N since U₁ ∩ U₂ ∈ 𝒪.
+  - Arbitrary unions: ∪(Uᵢ ∩ N) = (∪Uᵢ) ∩ N ∈ 𝒪|_N since ∪Uᵢ ∈ 𝒪.
 
 7. Let ∼ on ℝ be x ~ y :⇔ x − y ∈ 2πℤ. Describe the quotient topology on ℝ/∼. What does an open set in ℝ/∼ look like?
 
