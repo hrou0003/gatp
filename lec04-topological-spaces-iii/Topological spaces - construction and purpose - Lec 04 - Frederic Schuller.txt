@@ -1,0 +1,872 @@
+00:05 [Music] um today we'll uh start having a fairly
+00:12 good look at topological spaces based on our previous developments of set theory
+00:18 and as I announced last time topological spaces or a top establishing a so-called
+00:24 topology on a space I'll Define in a second what that is present the weakest structure you can
+00:32 establish on a set in order to have the two very important Notions of
+00:37 convergence and of continuity convergence of sequences of points on a set and
+00:45 continuity of maps between two topological spaces now the definition
+00:52 I'm about to give is at first side rather abstract on the downside on the
+00:58 upside it's extremely simple and this definition is the result of a
+01:04 historical development and I'll comment uh occasionally on that so um just take
+01:11 the definition as the simplest definition that after all uh mathematicians found to be of use in
+01:19 order to Define topologies so the definition of a topological space is as follows
+01:26 definition let M be some
+01:32 set and we know what a set is from axiomatic set
+01:37 theory then a choice so you see you have a
+01:42 choice here then a choice and this choice is called Curly o what is this o
+01:49 it's a choice uh it's a subset of the power set of M it could be
+01:56 the entire power set so a choice of subset of the power set of
+02:02 M is called a topology on
+02:10 M so this Cho is called a topology on M if and now three aums or three yeah
+02:20 conditions need to be satisfied the first condition is that you're not entirely free well you're not entirely
+02:26 free in your choice that's the idea of these three axioms and one condition is that certainly the empty set which is an
+02:34 element of the power set of any set must be in your pick of
+02:40 topology and likewise the entire set must also be part of your choice if you
+02:49 don't do that you already have no topology chosen the second condition is
+02:55 if you have two sets u and v that are already in your choice said this I want
+03:02 this one and that one well if you did that then it's a requirement that their
+03:09 Union I'm sorry that their intersection very importantly that their intersection
+03:15 is also in uh your choice and you know that uh
+03:20 we had this funny way of writing unions in intersections like the intersection
+03:26 and then you need to provide an entire set that contain contains the sets you
+03:31 want to intersect so um well anyway I first finish the statement the
+03:37 intersection of these two sets is then required to be also part of your choice
+03:43 you cannot choose u and v but not the intersection you have to um choose that tool
+03:49 and in kindergarten you wrote this U intersected V and of course if you wish
+03:57 you can still Define the intersection of say two sets here this way but uh from
+04:06 the last problem sheet we established this intersection in similar fashion to
+04:11 the union symbol and the the idea here is that you can only intersect you could
+04:16 intersect infinitely many sets not a question but you cannot intersect more
+04:21 sets than fit into a set okay anyway that's this uh here and the
+04:29 third condition is if you have a collection of
+04:35 open sets so here I took two but now I take an arbitrary
+04:42 collection of open sets Okay um then the requirement is
+04:49 that the union of this arbitrary collection not two not finite arbitrary
+04:55 collection that this Union again lie in your pick of sets we could have written
+05:03 this more in a more parallel fashion if I had written um curly brackets around UV that
+05:11 would then be a set be a subset of O if two lie in there they continue they
+05:16 build a subset of this set um
+05:22 anyway right so if these three conditions are met then the pick you
+05:27 made the choice you made is called a topology that's it that's
+05:34 all now before I um elaborate on that more uh let me make uh an important
+05:47 remark um unless the set M only contains one
+05:58 element there are many different or they're
+06:03 different and usually many different topologies
+06:10 o one can choose on one and the same
+06:19 set so it's a real choice and uh we can have a little table
+06:26 so if the um card it of the set M so this is for
+06:32 finite sets is one then how many
+06:37 topologies can you have so it's the number of
+06:43 topologies one can have uh well if you have one you can only have one topology
+06:48 because you then always have to take the set M itself it consists of just one element that's this you take the empty
+06:54 set and there are no other choices you can make but already if you have if the set M has two elements
+07:00 there are four different choices for the topology you could make if the set M has
+07:07 three then there are 29 choices for the topologies you can
+07:12 make if M has four you have 355 choices is M if m is five you have
+07:21 6,942 choices if m is six you have uh 2
+07:26 95 2 7 choices or 2
+07:32 9,527 choices and if you if the set M has seven elements you have
+07:39 um 9, 535,000 241 choices and you see already for a
+07:47 seven element set it's an extreme number right and
+07:52 obviously if you have an infinite set there's an infinite number of
+07:57 choices uh for the topology you could establish on that set so it's a real choice you have and
+08:06 depending on what topology you have your notion of continuity and convergence
+08:12 continuity of uh maps and convergence of sequences which we're going to define
+08:17 solely in terms of the topology will of course change I'll present examples for that
+08:25 now however let's first start with basic examples for topology to get familiar
+08:31 with the concept to become familiar well let's set let M be any
+08:38 set on any set we can choose the topology to consist of just the empty
+08:46 set and the set itself why is this a topology well the first axim is clearly
+08:52 satisfied the second axim we have to consider whether the intersection of any
+08:57 two is again in o the intersection of any two elements in O is again in O well the intersection
+09:03 with empty with empty is empty is in there already intersection of empty with
+09:09 m is empty well empty is already in there the intersection with of M with
+09:14 empty well that's symmetric that's again empty intersection of M with m is M oh but m is also already in there it's the
+09:20 second one and the third axm is we have to see whether arit are again in there well that's also true because the only
+09:26 possible unions you can get are either empty or all of M but empty and all of M are already in there trivially and so
+09:33 this is a topology is a
+09:39 topology topology and this is for any M and this topology has a name it's
+09:46 called the a chaotic chaotic
+09:51 topology why it deserves that name we'll see in a second you already guess it it
+09:58 won't be very useful it's only useful as an as an extreme example but sometimes
+10:03 the extreme examples teach you a lot as you know now another extreme example is
+10:09 M the any set and you can choose the uh you can
+10:15 make a pick that you say I take just any subset of M that is there so you choose
+10:23 the entire power set is this again a topology well obviously the power set
+10:28 contains any subset so the empty set is in there the full set is in there first ax or any two elements of the power set
+10:36 the intersection is again of course in the power set because the intersection of any two subsets is a subset and the
+10:41 same is true for the union the union of any arbitrary collection of subsets is
+10:47 of course a subset of M trivially also a topology is a
+10:54 topology on M and this is called the discre
+11:04 topology discrete in the sense of separated not discret in the sense of um
+11:10 um well you know the moral sense okay so
+11:16 that's the discrete topology and um by the way I should have mentioned um okay so let's go back to
+11:23 this Blackboard um the
+11:28 pair it's just terminology but it's important terminology the pair where you
+11:34 have the set and you also provide a topology is then called a topological
+11:41 space called a topological space and there you see the
+11:48 first real instance of what I very abstractly last time uh describe as a
+11:55 space is a set with some additional information
+12:00 provided in this case a collection of subsets or a choice of subsets of the
+12:07 set so this is the second example here this is the um the discrete
+12:14 topology now in these two cases we provided to
+12:20 topology by hand oh I should also give well let me give yet another example a very down toe example maybe it should
+12:26 have been the first example let's take the set with three elements 1 2 3 we
+12:32 know we have then a choice of uh of 29 topologies um but we pick one of those
+12:38 well at least we try we choose as the topology or the would be topology the
+12:45 set containing the empty set we know there's no other choice containing the individual elements one and two sets
+12:52 with elements one and two but not the one element set with three uh then the set one two and the set one 2 3 which is
+13:01 of course the set M itself so because of empty set and M
+13:07 being in there first axim is satisfied what about arbitrary intersections this with this is empty
+13:14 this with this is this again this with this is this again okay you okay not
+13:19 very helpful by me saying this and this is this again but you can check okay any intersection already lies in there of
+13:26 any two and any arbitrary Union of those also already lies in there so again this
+13:32 is a topology and this doesn't carry a name uh because it's not that interesting okay but it is a topology
+13:39 you can find many others on one two three for instance Thea chaotic one for instance the discrete one and so on okay
+13:47 right so um these are these examples now let
+13:53 me then come to the example that's probably most heavily
+14:00 used and that underlies the constructions on the real numbers we
+14:06 usually make for convergence and continuity but in this case we have to
+14:12 well it's I guess it's just another example but it's an extremely important example um
+14:19 important and heavily [Music] used
+14:26 example is the example where the set we are considering are the real numbers um
+14:34 or let's even take the real numbers to the D power which is of course just R
+14:40 cross cesium product r d
+14:45 times that's the definition of Rd and you know what the cartisian product is from our developments in set theory now
+14:53 the question is what topology could we equip the real numbers with well for for
+14:59 instance the chaotic topology or the discrete topology as extreme
+15:05 cases and but there is one very useful topology uh and that's the following and
+15:12 that's called the standard topology o
+15:17 standard uh on RD well that's a funny name and in
+15:24 contrast to the examples I provided so far where I completely enumerated the
+15:29 elements I put into the into the topology so I made an very explicit pick The Pick of subsets of Rd that are then
+15:38 to constitute a topology is defined implicitly because I have to provide
+15:44 overc countably many at least in in this type of definition and um so proceeds in three
+15:53 steps so o standard is constructed in three steps
+16:01 the first step is that you define an auxiliary quantity and that is for every
+16:08 X in Rd and
+16:14 every number R in R plus so for every
+16:20 positive real number you
+16:25 define an object called B of x subr and
+16:33 um I first Define it and then we interpret it that's the set of
+16:39 all points Y in RDS of all D tupal of
+16:45 real numbers such that the
+16:50 sum of y i - x i in Brackets squared the sum
+16:60 from 1 to D so I take all the components of this Tuple so this Y is thought of as
+17:08 y1 to y d this ordered Tuple defined on
+17:13 the last problem sheet discussed and defined and then for good measure we
+17:19 take the square root out of here and we require that this be less
+17:27 than the number r that appear here is here so it's the X from here is in there the r from there it's for all Y in Rd so
+17:34 it's restricted comprehension we can do that we Define this funny
+17:40 set now of course this is usually written the
+17:48 norm of the difference between these two bolts and more precisely it's called the
+17:54 two Norm because you take squares of the differences and then you take the square
+17:59 root um you could also take a 2N Norm then you take here the power 2 N but
+18:06 then you also take the 2N root and then you got all of this in the 2 N Norm you
+18:14 can make your pick of n uh for some n
+18:19 and it will turn out for the definition of the standard topology it won't make a
+18:24 difference and um even if you take norms that cannot be constructed in this way
+18:31 you know they are funny norms for any Norm it won't make a difference uh what the resulting topology is that's a
+18:38 famous theorem but anyway um let's not be too General here we take n to
+18:46 one okay so we stay with the with the two Norm with the square distance and
+18:51 then the square root okay we Define these guys and now how are we to think of them well you already see uh this
+19:00 intuitively is is the open but that's just a name it's the open ball of radius
+19:11 R uh around the point x in Rd that's the intuition but it's
+19:20 just a set I just defined a set at this point this has nothing to do with topology it's just a quantity that's
+19:27 very useful now the second step is that I now tell
+19:33 you how to decide whether a set u lies
+19:38 in a top in the topology in the standard topology o standard on
+19:45 RD and we'll say that U lies in there by
+19:51 definition if for every Point p in U if
+19:57 you look at this set for any point p in U there exists a number a positive real
+20:04 number R in r+ such that the
+20:11 ball of such a radius R around the point
+20:17 P lies entirely
+20:22 within the set u that's it that's it so um that's the
+20:31 definition now
+20:36 intuitively this is like this so let's take um M to be R2 so I can draw a
+20:42 picture on the Blackboard and let's cons let's say the whole Blackboard plane
+20:48 infinitely extended is R2 and now consider the following set everything that's inside this dotted
+20:57 line but but the points on the dotted line do not belong to the set so the
+21:05 interior of this this be the set u question is the set open ah terminology
+21:12 the elements of the topology are called open sets that's why this is an O
+21:18 elements of the topology are called open sets it's just a way of speaking which makes it simple okay so U is an element
+21:26 of the topology or U Is An Open set if for any any point in U so blindly I pick
+21:31 one ah this one there exists a positive real number such that the ball of that
+21:39 radius around this and so I draw the ball and this is also a dotted line and
+21:44 the ball consists of all the points inside the dotted line why well because
+21:49 that's exactly the statement the distance square root for n equal 1 it
+21:55 looks like this is less than r that means it's really less it's not less or
+22:00 equal to than the boundary belong to it it's less than R okay so this is the
+22:07 nals 1 case that we want to focus on um
+22:13 now if you pick any other point even very close to this boundary here that do
+22:19 does not belong to it well you nevertheless will always find a radius such that everything the entire ball
+22:26 still lies completely within the setu that's obvious now if you had a part of the
+22:33 boundary at least that belongs to the set it's not dotted it's like this then
+22:39 obviously you could choose as a point P that point on the boundary but then no
+22:44 matter how small but still positive you choose r no matter how small you would
+22:50 always have a part here of that ball that does not lie
+22:56 within the original set then the set would not be open very clear is it it's
+23:03 very clear right now um because it's so funny the question is how do the open
+23:10 balls in n equals 2 look like so if I take the fourth power and the fourth root that also provides a norm you can
+23:18 check that and so let me draw again the set U or some set
+23:24 u that's U again another U now the question is how do the open bals for
+23:30 nals 2 look like well they look a little bit like the screens of old TV
+23:40 sets they're not Square they have still this round this round corners okay
+23:47 that's n equals 2 uh but still you see that yields the same topology because
+23:53 for every TV set there is if there's a point that has a TV set around it you
+23:59 could have a smaller circle around a smaller Ball but then for the smaller ball you could also have a smaller TV
+24:06 set and so on so what in the ball topology is um identified as open is in
+24:13 the TV set topology nals 2 also considered open and the other way around so it doesn't matter what n you choose
+24:21 that's the intuitive picture for that now if you choose n equal n even higher
+24:26 uh I don't know 10,000 then the uh ball of radius R around the
+24:33 point P looks at the distance you are from the distance you are it looks like
+24:39 this but they're still very still very they're still a little bit round
+24:45 these edges and if you then take n to Infinity obviously you can't really do this but if n gets bigger and bigger uh
+24:53 you really arrive at these boxes but no matter how big n is every box contains a
+24:60 circle or a ball every ball can contain a box and so on and that then gives you
+25:07 the infinity Norm usually called the maximum Norm which uh can also be written more neatly
+25:14 without having Infinities there uh with absolute values but those are these
+25:20 boxes but the topology built this way is always the same so it doesn't matter which Norm you
+25:26 choose okay that's this this thing well now I said it proceeds in three steps
+25:33 well I still owe you the proof that this construction actually yields a
+25:39 topology so prove that this construction yields a topology proof that o
+25:48 standard Rd is indeed a
+25:56 topology so let's catch this the first thing we got to check is whether the empty set is in there aha
+26:03 how does this work so I need to check so I do this a little bit more carefully
+26:09 question is the empty set in O standard what do I need to do I need to
+26:14 check if for all p in the empty set ah
+26:20 it doesn't matter how this condition continues because for all p in the empty
+26:25 set we know that this is defined for all P for which p is in the empty set
+26:33 implies agree but p in the empty set is always
+26:40 false because the implication error is defined with the principle according to
+26:45 the principle X quot liit the whole thing is always true and because this predicate is true
+26:53 for any p p is a point now it's not a proposition therefore this is a predicate in P the all quantor the whole
+27:02 proposition is true that means yes it's in there so the empty set is in the
+27:09 standard topology ultimately because of the definition of the implication errow so the second condition we got to
+27:18 check no sorry still the first condition uh the question is is m in O standard
+27:24 the answer is yes because very quickly the essential idea well essential point
+27:29 is that any ball of any radius around any point in m is of course by
+27:36 definition a subset of M so any m is in there so the second thing we ought to
+27:43 check is if we got two sets in the standard topology we need to check
+27:48 whether the intersection is in there youu intersected V element of the
+27:54 standard topology question mark well so well the question is where this is
+28:01 really implied now let's start with the Assumption you in the standard topology
+28:07 means uh for every ah so we take consider I want to
+28:14 check whether this is in a standard topology so I take an arbitrary point out of the intersection what do I need
+28:20 to show I need to show there exists a ball of some radius around this point that lies entirely within this
+28:27 intersection how do I do this this well if I have a point in U intersected V
+28:32 that means I have a the point lies in U and the point lies in V by definition of
+28:37 the intersection but then because P lies in
+28:43 U and U Is An Open set that means for every um X in
+28:54 U okay do I need this um no I can be quicker that no I know there exists an
+29:01 r a positive real number such that the ball of radius R around this point P
+29:09 lies entirely within U because U is open but also there exists an R prime or an S
+29:18 also a positive real number such that the ball of radius s around P lies in
+29:25 V because u and v are open but then immediately it's clear that the
+29:33 ball of radius that's the minimum of R and S the smaller one or
+29:39 one of the two if they're equal around P this then lies in both u and
+29:52 v but that means it lies in the
+29:57 intersection ah so we found a radius we found a ball
+30:05 that lies in there that means um because we took an arbitrary point out of the
+30:11 intersection it means for any point in the intersection this conclusion can be drawn hence this lies in here so
+30:19 indeed this is correct and third well we're not always
+30:26 going to go through all steps just to demonstrate this once um let's assume
+30:32 that c is some collection of subsets in O
+30:38 so some set of sets in O and the question is is the
+30:46 union of C again in O well that's very simple because you pick any one set in
+30:55 C let U be an element in C then you
+31:01 know there exists because this is used in an open set there exists an r in r+
+31:09 such that b are well you know that for all p in U
+31:16 there exists an r in upas such that BR R of P lies entirely in
+31:22 U but then very clearly it lies also in
+31:28 the the union because it already lies in one the union of all the C because it
+31:35 already lies in one and this U is certainly a subset of the Union very
+31:40 simple that's it so this implicit
+31:45 construction is or provides are provides a topology under real
+31:52 numbers okay um
+31:59 okay ah I wanted to give this another section heading well now I provided as
+32:05 an example that's fine okay so then let's have
+32:11 2.2 construction excuse me sorry let me see
+32:17 what I yes yes yes that's fine okay 2.2
+32:23 construction of new topologies
+32:31 from given
+32:38 topologies so once you have a certain toolbox a certain collection of
+32:44 topologies um mostly new topologies that you Custom Design in order to solve your
+32:51 problem or to address your problem are actually built from the building blocks you already have so it's a very
+32:57 important technique to know how to construct new topologies from given topologies and um we'll start with the
+33:04 notion of a induced topology on a subset so let M with o be a topological
+33:16 space and let U or let n capital N be a
+33:23 subset of the space m well if the space m let's say a proper subset
+33:28 proper subset of M then the following object
+33:36 o stroke down n that's a new symbol okay
+33:42 totally new symbol is defined as the following set is the intersection of U
+33:49 with n n being the subset for all
+33:54 you uh that lie in the topology I had on the bigger set on the set
+34:01 M then this thing is a
+34:07 topology well this is a theorem a definition slash theorem because there
+34:14 the claim is this is a topology where on the subset n and it has a name it's
+34:21 called the induced and sometimes one add add
+34:29 subset topology namely obviously it has been
+34:35 constructed from the topology on the bigger set by intersecting any open set on the bigger set with the subset such
+34:43 that the entire uh o is certainly a subset of the
+34:50 power set of n any of these guys is a subset of n clearly hence we have a
+34:57 chance that this is a topology because it's a subset of n in the first
+35:02 place so proof it can be boring to go through
+35:09 these proofs but um I think for the first two or three definitions it's quite useful to to get a feeling of how
+35:15 this works um so you you always ask the same questions you ask whether the empty
+35:21 set is in the topology induced on N uh and the answer is yes it is yes since
+35:30 you can write the empty set as the empty set intersected with n but the empty set
+35:37 is certainly an element of the topology on M hence it's a u of this type hence
+35:43 the whole thing is an element of the Inus topology by definition so the empty set is in
+35:50 there similarly you got to ask whether the entire Set n is in there uh yes it
+35:57 is is since you can write the entire Set n as n intersected
+36:04 n sorry as m capital M intersected n capital M is clearly an element of the
+36:11 topology of M by the first axim of the topology um but then because it has precisely this form the whole thing is
+36:18 an element of o n hence n lies in o n first thing checked second you look at
+36:26 the intersection u v element of this topology what about the
+36:34 intersection of the two um so you take look at U intersected V but you can
+36:44 because these are subsets of n because the this topology uh you can
+36:49 write them as U intersected n intersected V intersected n because
+36:55 they already subsets of n this doesn't change then you use here the associativity and so on so it's U
+37:03 intersected oh I'm sorry um I'm sorry I this was too quick uh
+37:09 obviously I run into trouble right now if I assume that U and N okay I
+37:18 wanted to squeeze it into this space um but you can't make a proof shorter only because the Blackboard
+37:25 finishes so um let's be more careful
+37:33 so obviously if I assume u and v are in the induced topology I first need to use the definition of the induced topology
+37:40 for the sets there and then I can draw
+37:47 conclusions okay so second so assume u and v are in the
+37:55 induced topology what we want to show or check is whether this implies that U
+37:60 intersected V also lies in the induced topology now if UV are in the induced
+38:07 topology this means that there exist exists an
+38:15 N ah okay now I run into this trouble there exists an an
+38:22 S you see in order to not entirely confuse you and me for that matter um
+38:27 let's say we have um s and t open sets and we want to check whether the
+38:32 intersection lies in there now what does it mean to be an element of o n it means
+38:38 there exists a u in the topology on o so that's the U up there such that s can be
+38:45 written U intersected n and T in there means there exists an
+38:51 open set V in the big space in the topology of the big space such that the set subset T of the small smaller space
+38:58 of the Subspace shouldn't say smaller I mean Subspace you know for infinite sets it's difficult to say what it means
+39:04 smaller it's a subset to be precise there is a v such that V intersected n
+39:09 gives you this space that's according to the definition okay so now then we consider
+39:19 s intersected T but then I know s is U intersected n and that's intersected V
+39:27 intersected n um and that is of course U intersected
+39:33 V intersected n but u and v were elements of the topology of the of the
+39:40 space m of the big space I continuously big and small of the big space so this is an element of O but you see if
+39:48 something is an element if you have an element of O intersected n then according to the definition the whole
+39:54 thing is an element of O subn So indeed s in O subn implies that s inter s
+40:01 intersected T is an element in o n okay yeah do you have shown that you're
+40:08 allowed to the step from the first L to the second this here no we haven't shown
+40:13 that you want it on the problem sheet okay can do it put it on the problem sheet yeah but it's it's clear
+40:20 from from kindergarten said Theory but I agree uh there many things you can prove
+40:25 yeah yeah that's true that's true so with our definition of the intersection but obviously our definition of the intersection from the last problem sheet
+40:31 in the case of finite intersections fully reduces to what you learned in kindergarten with sets um okay do you
+40:38 still do this today that in elementary school I say k but in elementary school you do still set theory today or you did
+40:45 that in school the in the 70s it was a big fashion and people uh and parents
+40:50 got very unnerved because they said oh my God it's mathematics I don't understand and so on but then there was cars and red cars and blue cars and the
+40:56 intersection of red cars and blue car was empty uh stuff like that okay good
+41:01 and and finally of course I'm not going to write this down now is you check the third Axiom that uh also arbitrary
+41:09 unions uh of elements in the induced topology lie again in
+41:15 induced topology so this is indeed the subet topology so let's have one simple example uh you can equip r with the
+41:23 standard topology okay and then you can look at
+41:29 as n um on n as what do I want to have uh I
+41:39 want the closed interval I use this coool
+41:45 notation you know how this is defined of minus one to one I mean you know what what set this is yeah okay I defined it
+41:52 uh so this is the set of all X in R for which we have uh min-1 is less or equal
+42:00 x is less or equal 1 okay so we have this interval and now we can equip the
+42:08 Set n obviously with o standard but then
+42:13 induced on n and my claim is as an example my claim
+42:20 is that the interval open zero to closed one that
+42:29 doesn't look open it has a a point if you judge this in the topology of of R
+42:35 this is a subset of R so you can ask does it lie in the topology is it an open set you'll find it's not an open
+42:41 set because it has this point on the boundary that's the argument from before okay
+42:48 but the very same set is also a subset of n it lies in this interval so it's a
+42:55 subset of N and I can ask whether in the induced topology on N it's open and in
+43:00 fact it is open because it can be written as um 0 to two
+43:09 intersected um intersected with minus1 to 1 you
+43:16 agree on that right so picture no don't you don't need a picture okay so this is this is
+43:22 fine this is this but 02 is an open ball well it's a
+43:28 uh it's open on in the standard topology on R intersected this guy is the Set n
+43:36 aha but any set that can be written as an open set in the bigger space intersected the Subspace whose in used
+43:43 topology you consider is therefore an element of the induced topology on the
+43:50 Subspace so a set can be non-open in the big space but
+43:57 nevertheless it can be open in the subset topology in the induced topology
+44:04 on some subset if it happens to be at the same time a subset of the subset okay so it's always the question
+44:12 is always it's open with respect to what topology even if this is a subset so
+44:17 must be careful not to draw too quick conclusions if one sees subsets in
+44:23 topology and judges the openness or not okay so I just used the term
+44:32 non-open and it's very tempting to think that non-open uh should be called closed well
+44:41 you could but you don't so in topology there's another convention uh in form of the definition
+44:48 a let m o be a topological space top
+44:54 space and um a subset C of
+45:00 M is called closed not if it's not an open that
+45:08 would be it's not the case it's called close closed if the complement of that
+45:15 set with respect to the whole set m is
+45:21 open okay the complement is open um yeah
+45:29 okay well example very quick example uh the interval uh Z
+45:38 one is closed in are equipped with the standard
+45:47 topology not because it has the well because it has these end points that just means it's not open but it's
+45:53 actually closed because R
+45:59 without the subset which is the interval from minus infinity to zero exclusively
+46:07 because the zero is taken out Union with zero no with one to Infinity exclusive
+46:15 the one because the one is taken out now this set is open in a standard topology
+46:22 because for any point in there you find a little ball that lies around it the same is true here but but it's the union
+46:28 of two open sets in o n so this is in O in O in O standard this is an O standard
+46:33 this an O standard arbitrary Union so certainly finite ones are in O standard ah so this is in O standard that means
+46:40 it's open because this is open that means this is closed by
+46:47 definition and so the warning
+46:52 is little warning sign um in
+46:59 General that means if we know nothing particular about the topological space so generic topological space for generic
+47:06 subset and so on in general a subset of a topological
+47:15 space can be a
+47:20 open B can be closed so or or
+47:28 it can be open and closed or four it can be
+47:35 open and not closed or five it can be not
+47:43 open and closed or six it can be not open
+47:52 and not closed
+48:01 meaning being open and being closed has actually nothing to do with
+48:07 each other other than via the complement but you cannot see an open
+48:13 set and then conclude anything about its closedness or you cannot see a closed set and conclude anything about its
+48:19 openness or in any of the other combinations however uh
+48:26 observation
+48:32 a the empty set can always be written as m without M that's right well m is an
+48:41 element of for so observation for any topological space for any m o top
+48:50 space the empty set can be written as m without M but M lies in the open set so m without M obviously this is recognized
+48:58 to be closed and B M can always be written as m without the empty set and for the same
+49:06 reason well actually this is open hence empty set is
+49:13 closed and down here this again is open because it's yeah uh hence uh the
+49:22 entire set m is closed but because the empty set and M are also both open
+49:28 the entire set and the empty set are of this
+49:35 type in any
+49:40 M they're all they're of this type they're both open and closed there's no
+49:48 contradiction we'll later on Define the notion of a connected topological space
+49:55 and you can prove that in a Connect Ed topological space the only sets that are
+50:01 both open and closed are these two so if you find this funny that this happens at
+50:06 the same time if you don't want this for some reason you can look at Connected
+50:12 topological spaces there then these two are the only ones but there's no topology in which
+50:19 this is not the case because it's a general
+50:26 property okay so uh let me give you a real life example where you use the induced
+50:38 topology um so assume you want a topology on the circle so
+50:45 consider the set first of all a set S1
+50:51 the set S1 um is the circle you all know what the circle is okay okay but I only think
+50:59 of the circle here as a set so as a set it
+51:06 uh this is a circle right it has no shape we'll only get a shape once we
+51:11 have a geometry remember our building where only at the very end you have geometry only if you have geometry you
+51:17 can talk about uh that well even this is already too much it's already a continuous Circle well we're coming to
+51:23 that but anyway as a set um it can be understood and you might find this um no
+51:30 fine you can Define this as a subset of R2 that's one possibility so you can say
+51:36 the circle is the collection of all pairs of real numbers um for which X2 + y^ 2 is say
+51:46 1 okay so if that's your definition then in R2 it really already looks like this
+51:52 okay fine and now the question is how do you establish a topology on the circle well
+51:59 one way to
+52:04 establish a topology on S without starting from
+52:14 scratch um is to let the topology on S A topology o on
+52:21 S is to define the topology as actually taking the topology the standard
+52:27 topology on R2 and induce it on this
+52:36 subset so how does that look like so I could ask the question um the set that
+52:41 is here the subset of the circle that's open that has not this point also this
+52:46 point is not there but all the other points in between belong to the subsid you the question is is
+52:53 this an open set in the induced topology what do you say yes or
+52:58 no is this U open in the induced topology on the
+53:06 circle yes right it is
+53:12 because there is this um well I could call should call this s also s because
+53:18 there's this set u that's an element of the standard topology on R2 whose intersection with
+53:27 the set s yields exactly the set
+53:32 right um is the empty set which is a subset of the circle is that an open set
+53:39 in the induced topology well we know that the empty set always is otherwise I'd say the empty set on here is the
+53:45 intersection of this circle with this open set in the standard topology okay and um the other
+53:53 question is is the set that has one point that consists of say just one point it's a subset of the circle is
+54:00 this one set point T So T is
+54:07 the is this set is this open in the topology I established in the
+54:13 circle no it is not because I cannot generate this point by any intersection
+54:19 of an open set in the standard topology out here and the circle right because if I if I'm outside
+54:27 that doesn't is not generated if I just touch the circle because the boundary of this subset is not there it's not
+54:34 generated and if I already cover it then I cover more than one point very simple
+54:40 so that's one way and another way is to proceed entirely differently
+54:48 namely to understand the circle as a quotient set last time we discussed equivalence relations and quotient sets
+54:55 I can take the entire line and I only look at the equivalence classes of points where two points in the real
+55:03 numbers are to be identified by a relation twiddle if and only if um uh x
+55:12 uh equals or Y = X + 2
+55:19 pi okay so any two points whose difference is 2 pi on the real numbers
+55:27 are to be identified that means you take the real line you start with zero but the point 2
+55:34 pi is actually to be identified with the zero okay and so you start again so this
+55:40 way you get the circle as a quo space and you can then study how you inherit
+55:46 from a topology on this set a topology to a quoti space I didn't show you how
+55:53 to do this what the induced topology or the inherit topology on the quo space is uh but that will be on the problem sheet
+56:02 topology inherited by the quotient
+56:10 Space by a quo space is the problem sheet a problem on
+56:16 the problem sheet okay so you see there's sometimes several ways you can do this but it's
+56:22 highly convenient to be able to be uh to build quoti spaces into inherit topologies here subsets and so on one
+56:31 more um definition very important one is um how do you inherit the topology from
+56:39 two spaces a so let's have a topological space a with a topology O A it's now not
+56:46 the induced topology it's just one topology and let's have and because the induced one has this stroke there as
+56:53 well and B with ob let these be to topological
+56:58 spaces now very often you wish to have you equip the cartisian product of these
+57:06 two spaces you do this all the time implicitly equip the cartisian product
+57:13 with the so-called product
+57:22 topology which you construct in the following ways again implicit given so let's call it o Down A cross B
+57:31 it's the product topology uh defined
+57:39 implicitly by U is an element of let's call it
+57:48 w let's called u u is an element of the product
+57:54 topology by definition if and only
+57:60 if for every Point p in U but you see if
+58:05 it's the subset of the cartisian product so the point P can actually be written
+58:12 as a pair VW uh that lies in a um AB as a pair AB
+58:22 that lies in A cross B if for every p in
+58:27 this subset U of A cartisian Product B
+58:33 uh there exists a an S which lies in the open sets of a
+58:42 which is an open set of a that contains a and there exists a t in the open sets
+58:51 of B that contains B such
+58:57 that their cartisian product such that the cartisian product of these
+59:03 subsets lies entirely within
+59:11 you so
+59:19 intuitively um let's assume we can represent a and b
+59:25 as this a and this axis well it's already a big assumption right because
+59:31 topological spaces can look very crazy there's no idea of even dimension in a topological space right that will come
+59:38 later but intuitively uh let's do it like this and I can ask the question is this set
+59:46 here is it open or not well if I I need to check whether for every Point let's
+59:52 say this one uh there is
+59:58 a an open set in here let's assume it looks like this so I'm thinking real
+60:03 line here uh and there's an open set here like this because this point here
+60:10 is the ab point it's the pair in this cesium product and then I need to find
+60:16 sets s and t here so this is the set this entire thing is the set s this
+60:21 entire thing here is the set t such that their cartisian product
+60:28 which you can construct like this so that's everything inside this dotted box such
+60:35 that their square product uh cartisian product lies entirely within the original set u whose
+60:44 openness you want to check and you see well this didn't quite work but you can
+60:49 choose these two smaller around here and then it may work or not it depends on what topology On A and B you have
+60:55 whether uh and a set in the cartisian product of
+61:00 A and B is open or not I mean this is very intuitively this is inspired by
+61:06 standard Top by A and B being the real lines in standard topology this picture but this is the picture to remember uh
+61:13 if you want to write down this general definition and um check yeah can
+61:19 check and I ask you to check on the problem
+61:24 sheet that this is a to apology this o
+61:29 provides this o a cesan product B provides a
+61:37 topology on a cesium product B and obviously if you have it for
+61:44 one for a pair you can do it for any finite cartisian product so we have a
+61:53 remark uh one uh can do this for any
+62:02 finite A1 cross A2 cross D cross a n and
+62:09 the second remark is that the standard topology o
+62:16 standard on RD bit too big this Rd on RD actually is
+62:22 the same it doesn't matter whether you do this or whether you take the uh
+62:29 topology only on the real line and you consider the product topology of D
+62:39 * the real line equipped with the standard topology with itself why well it's precisely the
+62:46 argument I gave with the maximum Norm Norm sub Infinity before it's because
+62:52 boxes always contain circles and circles contain always boxes and and so on okay
+62:59 so it's it's the same thing so already for Rd you can understand you so we
+63:04 could have been more minimalistic and defined the standard topology before only for the real
+63:11 numbers and then we could have defined this a topology on RD this way well you
+63:17 can do it both ways and it happens to coincide of course there's no a prior
+63:22 reason why it would but in fact it does any questions at this
+63:29 point okay so now okay let me before we uh continue
+63:36 let me make one more remark um in this course we always consider topologies as
+63:41 giving structures to sets and finally want to arrive at some manifold some physical space and so on however
+63:48 topology is not only useful in this I quoted I I I say roughly geometric
+63:54 context where somehow you have to do with spaces that have to do like we imagined them geometrically topology is
+64:01 a very very versatile subject and hence it deserves its own status and for instance you can cleverly equip the
+64:10 integer numbers with a topology not a problem IND numbers are set there are certain certain topology you can
+64:16 establish and um so did a guy called firstenberg and firstenberg discovered
+64:22 if I equipped the integer numbers with this and that topology which I choose in a certain way to uh suit my purposes
+64:30 then you can provide an entirely topological proof actually just thinking
+64:36 about closed and open sets that proves that there are infinitely many prime
+64:41 numbers okay so even in number Theory you can use topology as a
+64:48 tool well so this shows the context in which we develop this as physicists may
+64:53 be um by far does not exhaust the applicability of topology and um so
+65:00 that's just a side remark and this firstenberg example is is a famous one because it's kind of unexpected that you
+65:07 can provide such proofs and that of course goes a long way to explaining why we provide a definition of the form we
+65:14 did of this abstract form this is so abstract it can actually cover a lot of
+65:20 situations and then the brain work goes into choosing the right topology to solve your problem
+65:26 topologically okay and of course that sometimes takes some Ingenuity all right
+65:31 so that was the side remark but anyway whenever you have a topology the whole thing is only useful if you can then
+65:39 actually do something with it in this case um I provide this it's the convergence of
+65:44 sequences and the continuity of
+65:55 maps so let's start with the
+66:00 sequences 2.3
+66:07 convergence definition a
+66:13 sequence what is a sequence that is a map a sequence q that is a map Q from
+66:22 the integers into a set m a sequence
+66:28 Q on a topological space
+66:33 m so I need to provide the topology that is a map
+66:40 that gives for every integer number a point in the set M that underlies the
+66:45 top logical space a sequence Q um is
+66:52 said to converge
+66:58 against a point a in M
+67:06 if for every open set in M for every u
+67:12 in O that contains the point a that contains the limit point against a let's
+67:22 call it limit point so that's definition here
+67:27 if for every U that contains a and this will appear very often you saw this already before we have an open set that
+67:34 contains a point very often one refers to this as an open because it lies in O
+67:40 an open neighborhood
+67:45 neighborhood of the point a because a lies in there and it's open and it
+67:52 contains it so the U lies around it what lies around you is the neighbor Hood okay that's that's just lingo it's the
+67:58 terminology in topology so if there exists an open neighborhood of the limit point if for every s very important if
+68:07 for every open neighborhood of the limit point uh there exists an n in the
+68:12 integer no in the natural sorry it's not the integers the non negative integers the natural
+68:18 numbers such that for all n that are bigger than this particular n that
+68:27 exists the images of the sequence of this map starting from this n onwards
+68:34 capital N onwards lie in this open
+68:42 neighborhood okay that's the convergence um
+68:49 example let's choose a set M and equip it with the
+68:56 chaotic topology you remember that was the chaotic
+69:04 topology so far only a name now consider any sequence let Q from n to M
+69:13 be some sequence so you see being a sequence has
+69:19 nothing to do with the topology it's just a matter of of being well this map into the set but now if you have
+69:26 a topology you can decide whether the sequence converges against some point
+69:31 and my claim is any
+69:38 sequence converges
+69:43 against every point so if you equip a space with the
+69:50 chaotic topology no matter which sequence you give me I can actually show it converges
+69:58 against any point in the space you provide me why is this true well because
+70:05 what we got to check is let Q be arbitrary and let the point a be arbitrary I need to check whether for
+70:12 every open set that contains the point a how many open sets do I have two which
+70:20 of these two can contain a point a only this one right so I need to check whether for
+70:27 every that contains a so that means U is already the entire set M well of course
+70:33 the exists in N such that for all n greater n q n lies in M because for
+70:38 every n q lies in M because it's a map into
+70:44 M fully independent of what the point is fully independent of how exactly the sequence is defined so choosing the
+70:52 chaotic topology every sequence converges against against any point hence chaotic okay that's the idea
+71:00 and obviously it's not very useful okay so if you are set an exam question or if
+71:08 you're a teacher in the final exam you're asked show that this and that sequence converges and the examiner is
+71:14 not careful enough to specify in which topology you just claim well this
+71:20 sequence whatever space on R say you could converges against every point
+71:25 because I choose the chaotic topology and you didn't ask me to choose any other okay very quick exam solution
+71:33 um similarly you could look at M and equip it with
+71:39 the yeah I know I get into trouble with the others but okay and you can equip it with the discrete topology what happens
+71:47 then well then every set is open and you see unless then the sequence finally is
+71:54 constant so only no only
+72:01 all almost constant constant
+72:09 sequences converge and if they converge they converge again against the constant what
+72:15 do I mean by almost constant I mean q of n always takes the same
+72:21 value apart from a finite exception set almost most constant means constant
+72:28 everywhere apart from a finite exception set you can check this it's it's clear
+72:35 and C if you take M to be R and O to be the
+72:43 standard topology in R then of course you have the theorem you can prove that
+72:48 a sequence on r or on RD on RD converges
+72:59 against uh a in Rd
+73:05 if for every Epsilon greater than
+73:11 zero there exists an N in N such that for
+73:18 every um n greater than
+73:23 n uh well let's take some Norm it doesn't
+73:29 matter um of what is it uh Q of n minus
+73:34 a is less than
+73:40 Epsilon EXC yes
+73:48 exide in the noral analysis way you say if you don't if you
+73:54 find for all well yes um because this is the
+73:60 finest topology um everything that's convergent here would be convergent in
+74:06 any other topology but in other topologies that are not that fine where you choose not
+74:12 as many subsets there will be sets uh there will be sequences that converge in
+74:18 the other topology that do not converge here because you see for instance in this topology I'm writing down here in
+74:24 Rd uh you could have a sequence okay example so I choose the example
+74:30 according to that you could have a sequence Q of n is uh given Al so m m
+74:37 equals R so D1 Q of n is uh
+74:43 1 minus 1 / n okay um how does that look like uh n
+74:52 yeah okay n with z and you start here from from okay n+ one
+74:59 okay something like this so don't you don't run into trouble with the zero here okay uh and then obviously if this
+75:05 is the real line and this is one uh then
+75:10 uh one - n is 0 1 - 1 is zero you're here and then 1
+75:16 - 12 is here then 1 - 1/3 is here and so
+75:21 on so you get closer and closer and closer but this is not almost constant
+75:34 because every value is different okay it's not almost constant uh that is not
+75:45 convergent in R equipped with the discrete topology on
+75:53 R but it is convergent in R equipped with the standard
+76:02 topology so if you look at this you say well it look it converges against one
+76:08 well if if you say look it does do so you have the intuition of the standard
+76:13 topology and that you have because the standard topology uses the norm or the distance and our intuitive feeling about
+76:21 convergence is about getting closer and closer and closer so you if you you can
+76:26 generalize this for every metric space where you have a metric map you you can
+76:32 actually construct from this metric distance function you can construct a topology but by far not
+76:40 every topology is induced from a distance map
+76:46 okay okay so that was the example there
+76:51 um that's convergence now we come to continuity
+76:58 so let me make uh one half serious side remark um if today you want to do
+77:04 research you need to apply for money if you want to apply for money you got to write a research proposal a research
+77:11 proposal is of the type uh we do this and that and that because once we do that we know more very fair it's a fair
+77:18 thing and in physics you write we come closer to the truth okay or in recent
+77:25 years we have converged against the true theory or whatever you want to choose
+77:31 okay so you write up this proposal and uh well and then it goes to several institutions maybe it needs to get the
+77:38 spiritual approval of the office for gender and diversity but once it has passed this it actually goes to some experts and they will read it but the
+77:44 experts don't have time so they just read the introduction and in introduction it needs to say that we are
+77:50 getting better and we're making progress now let's half seriously critically evaluate valate this what
+77:56 does it mean our theories in physics for instance make progress one way you could
+78:04 express this not the only possible way but one way would be to say they get better and better well better you need a
+78:10 measure for whether one theory is better than the other Theory maybe you know about non-commutative
+78:16 dice right so you can uh
+78:24 actually you can make this you can uh
+78:32 distribute numbers on there like this and then you can make another one well
+78:37 look it up on the internet non-transitive why do I say noncommutative nontransitive dice right
+78:44 non transitive dice you have a different
+78:49 distribution don't take the distribution seriously it's just for illustrational purposes and you have a third one
+78:58 okay now the claim is and it's one can find distributions of scores on there
+79:06 such that if this is dice a b c that if
+79:12 a plays against B A plays against B and the rule is a
+79:18 throws dice B throws the dice and then you look who got the higher number okay
+79:24 uh well in some cases a will win namely if B has zero in all other cases B will win stuff
+79:31 like this and every time a has a higher number than b a gets a meta mathematical number uh b
+79:39 gets one then B then a wins and so on okay so you do this for some while and
+79:45 in the end after a long run you determine who won by who got more
+79:50 Strokes okay and obviously if there's a different distribution of numbers possibly in the long run I mean you can
+79:56 calculate who gets with what probability what okay so a plays against B in this case you would say well a the quality of
+80:04 a q of a was greater than the quality of dice B if you want to play against this
+80:10 guy you want this dice now you can then let B play against
+80:16 C and it could turn out with the right distribution of numbers that the quality
+80:22 of B is also bigger than the quality of C now if you look at this you say ah if a
+80:29 the dice a is better than b and if dice B is better than C then it makes sense that a is better
+80:36 than C so a is the winning combination and now think of
+80:42 this as research proposals which usually are more complex than the distribution of such numbers on dice you have more
+80:48 choices to make but remarkably there is a distribution of numbers on these three circles such that the quality of C is
+80:57 greater than the quality of a according to the rules I just gave that means from
+81:02 Q of a being greater than Q of B from Q of B greater you cannot conclude this well if you can't conclude this that
+81:09 obviously means this quality measure doesn't exist at least it's not real valued or something okay I mean this is
+81:15 remarkable that means anybody who has the fantasy of assigning to complex
+81:21 situations like research proposals or the ability of a girl or a
+81:27 boy a real valued function that measures this for everyone and then Compares on
+81:32 this scale I mean almost all of uh uh uh what's it
+81:38 called economical science economics is built on this assumption you can model
+81:44 things and measure the quality or the cost or whatever um well already something that's as little complex as
+81:51 the possibilities to cont uh distribute numbers on on dice in such fashion
+81:57 doesn't have a Quality Function so please nobody say this theory is better
+82:02 than that theory you please ask immediately for the Quality Function and very likely it's non non-transitive
+82:09 because generically it's non-transitive it's only special distributions would
+82:15 then be transitive okay that's the first thing so we can't have a quality function in order to measure your
+82:20 research is getting better or your research to proposing is better but you might say well even if if I don't have a Quality Function I can still say it's
+82:28 coming closer to the true theory how nature really is well that would really
+82:34 be a very weak statement but still impressive enough if it were true but
+82:40 the problem is in order to make any such statement what would you need you would need to know the topology on the space
+82:48 of all theories that sounds like you can't write it down okay at least I don't know
+82:54 it so that means I assume unless somebody convinces Me by some other argument of
+83:01 uh of the contrary that any statement of the type the theories are getting better well forget about this uh the theories
+83:08 at least approach converge somehow well you need a topology in the space of all
+83:14 theories that's far too complex so in that sense because we don't know of any structure that can uh by which we can
+83:21 Define convergence that makes fewer assumptions than having a topology topology also reveals nonsensical or IL
+83:30 defined statements which sound good it's a little bit like with the hairdressers and what hairdressers can do only
+83:36 hairdressers can do in logic in topology maybe you can conclude or at least it
+83:43 this or at least this uh argument raises sufficient suspicion for any such claim
+83:49 and of course it applies to other circumstances as well the next notion
+83:55 is conver um continuity and while convergence was interesting continuity
+84:02 is at is at the heart of topology because it will finally be used also to
+84:08 Define structure preserving Maps so 2.4 uh
+84:20 continuity definition let
+84:26 m o m and n n be topological
+84:36 spaces and let F be a map from the set M underlying the
+84:44 first topological space to a set n underlying the second topological
+84:53 space then the map f is called
+85:01 continuous it's called continuous
+85:07 if for every open set in the Target
+85:14 space so you take an open set in the Target space if for every open set in the Target
+85:20 space the pre-image of this open
+85:25 set with respect to the map f is an open set in the
+85:33 domain here that's it that's continuity it's
+85:38 extremely simple maybe I remind you of the definition of the pre-image the pre-image were all those points M and
+85:46 capital M such that um yes for Which F of M was an element
+85:55 of the specified set V in the Target
+86:01 that was the pre-image or in brevity uh F
+86:10 continuous if pre-images of open
+86:16 sets are open um that hides the fact that this is
+86:23 the openness in the target space and this openness is the openness in the domain so hence more precisely it's this
+86:31 condition
+86:39 here this is at the heart of topology as we'll see in a second so um
+86:45 examples um our favorite example is one
+86:51 of the favorite examples is mine is you start from a set M you you take a map
+86:56 between arbitrary sets and you choose to equip this here this set with the
+87:05 discrete topology and this set you can choose any topology you like
+87:13 question or claim claim under these circumstances with the
+87:21 target with the domain and the target equipped with these topologies any map f
+87:26 is continuous why well you choose any open
+87:32 set here but the pre-image well it could be the empty set is open What's the
+87:38 pre-image of the empty set it's the empty set where the empty set is certainly open okay now you choose any
+87:44 other non-empty set the pre-image of the non-empty set is a nonempty
+87:50 set not necessarily could be the empty set but generically it's a non-empty set could be any set it doesn't matter I
+87:55 shouldn't have made this distinction of cases um so again take any open set here
+88:00 the pre-image is certainly a subset of M but every subset is open that's the
+88:06 condition it must be open hence any map is continuous because I didn't use any particular properties of the map in
+88:12 other words once you equip the domain with the discrete
+88:17 topology continuity is clear it's simply there every map is continuous well if
+88:23 every map is continuous continuity becomes a useless property hence you
+88:29 never equip the domain with the discrete topology if you still want to work with
+88:35 continuity it's the first example the second example you take the map from M
+88:41 to n now the domain you can choose anything you like in the Target you
+88:47 choose the chaotic topology similar game any map is
+88:54 continued as you may quickly think about and then
+89:03 C you take a map from RD to RF you equip both of them with the
+89:11 standard topology respectively and you recover the
+89:17 standard definition of continuity on our for from RD to RF so
+89:27 for every Epsilon greater than zero there exists a Delta greater than zero
+89:33 such that for all xus Y and so on you know how that works it's the Epsilon
+89:38 Delta Criterion for continuity is recovered from this very general
+89:44 definition of continuity for every topological spaces or pair of topological spaces in the case you equip
+89:52 Rd and RF with the standard topologies
+90:01 yes um where are you here that's an N you mean this thank you very much yes of
+90:07 course it must be n thank you okay so we have this uh
+90:19 continuity now we have another definition that is let
+90:25 F from M to n between two sets be a
+90:33 bje a bje is of course a bjective map let this be a bijection um
+90:41 now equipping M with o m and n with o n so
+90:51 making topological spaces out of these sets
+90:56 we call a bje fi a and that's the central
+91:03 notion of map in topology we call it a homeo homeo
+91:13 morphism a homeomorphism if both F from M to n now
+91:22 being a topological spaces is
+91:28 continuous and B the inverse of f going from n to M and the inverse exists is
+91:36 unique because m is a bje f is a bje is also
+91:42 continuous and uh remark
+91:50 homeomorphisms and usually we write homeo and then the
+91:56 morphism part we suppress because it's a long word homeos meaning
+92:04 homeomorphisms are the structure preserving
+92:11 Maps preserving maps in
+92:22 topology why is this well you go from M to n and you go back
+92:29 so F takes you from M to n as a set and
+92:34 F inverse takes you back now if fi is continuous that's one of the conditions
+92:40 then any the pre-image of any open set is an open set but the pre-image is just
+92:48 the image of f to the minus one because it's a projection the other way around with the F to the minus one that means
+92:55 by having a homeomorphism if a homeomorphism exists
+93:01 definition if there exists a homeo f that's this
+93:10 picture then fi
+93:15 provides a one:
+93:21 one uh pairing yeah pairing of open sets of the open
+93:32 sets of M with
+93:38 those of n according to the chosen topology
+93:45 so you can say the topologies are the same have the same
+93:52 structure and uh we then right in case a
+94:00 homeo exists between two spaces topological
+94:06 spaces we say that this topological space is
+94:12 isomorphic to that hom um um sorry to
+94:18 that topological space but it's isomorphic in the topological sense so
+94:23 we write the same isomorphism sign as we did in set theory but now it's not only
+94:31 as sets they're isomorphic they certainly are because there exists a bje between them remember existence of a bje
+94:38 means as sets ignoring the topology they're isomorphic but it's even more
+94:45 even if you equip them with topologies but now the map the bje has to satisfy
+94:50 an additional condition namely this homeomorphism condition then they're even isomorphic as topological
+94:58 spaces isomorphic as topological
+95:06 spaces that's very long uh so people also say
+95:12 homeomorphic homeomorphic so a a map can be a
+95:19 homeomorphism but two topological spaces between such a home morphism map exists
+95:26 are called homeomorphic okay and obviously topological
+95:33 isomorphism or homeomorphism implies that the underlying sets set
+95:40 theoretically are isomorphic that means you can have two sets that are
+95:46 isomorphic but then you equip them with topologies and as topological spaces they
+95:53 become non isomorphic topologically we could say topologically
+95:58 that they'll be different okay and that shows you added structure and things
+96:04 that are the same or isomorphic that means same up to some reshuffling can by way of establishing
+96:11 different structures become non-isomorphic at a higher structural level perfectly fine right have two
+96:18 children they're both blonde but now I dye their hair and one is blonde and the other is red hair now they're different
+96:25 okay well one finds other disting properties but okay fine so that's this
+96:31 and so as structure preserving maps and you remember the general dictum that uh the recurrent theme or one of the
+96:38 recurrent themes in mathematics is that you classify Spaces by
+96:44 considering structure preserving Maps between them now in set theory well I only
+96:52 hinted to that but in set theory you define sets by their card you classify
+96:57 sets by their cardinality uh we didn't go very far there there's a very big theory behind that but finite sets you
+97:04 classify by the number of elements if two finite sets have the same number of elements they are isomorphic as sets uh
+97:10 then they can be finite countably and so on and so on okay now for topological spaces one would like to find
+97:19 properties that also distinguish prop um topological sets in the sense and we're going to Define such properties um well
+97:27 let me first Define such properties and I come back to this point but I tell you already nobody knows a complete set of
+97:34 properties of topological spaces like in set theory number of elements okay
+97:40 properly speaking for topology nobody knows a complete set of properties such
+97:45 that you could check all those properties for one space and for the other for another space and then say if
+97:51 these two if the set of these properties is matched for both topological spaces
+97:57 then the topological spaces are already homeomorphic right I would like to have such criteria there exist no such
+98:04 criteria and hence one says there exists no classification at least nobody knows of any classification of topological
+98:11 spaces there are just too many or we haven't thought carefully enough but
+98:16 that's an open classification problem as far as I know but I think that's correct so uh yeah you can prove that and then
+98:24 make donations to the university It's always important to know what the open problem in a field are because if you
+98:30 want to solve some of them you better know they're
+98:41 open

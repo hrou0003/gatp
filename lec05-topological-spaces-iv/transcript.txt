@@ -1,0 +1,2165 @@
+[00:00:04] [Music]
+[00:00:08] now let's start nevertheless there is a
+[00:00:12] whole
+[00:00:13] number well it's actually an entire zoo
+[00:00:16] of topological properties that are
+[00:00:19] heavily used there is separation
+[00:00:23] properties which we I'm going to write
+[00:00:25] down now uh then there is uh
+[00:00:28] connectedness path connectedness simple
+[00:00:30] connectedness house or House of a
+[00:00:32] separation property there is compactness
+[00:00:35] parac compactness dot dot do is an very
+[00:00:37] long list and there's actually a book
+[00:00:39] that's I don't know what the title is
+[00:00:41] It's kind of topological properties and
+[00:00:43] for many many spaces hundreds of
+[00:00:46] properties are listed and whether this
+[00:00:48] space has the property or not but no
+[00:00:50] such set is sufficient you always find
+[00:00:52] sets two sets that are not homeomorphic
+[00:00:55] but share all those properties so okay
+[00:00:59] anyway so but these uh apart from
+[00:01:02] serving in a future classification
+[00:01:05] possibly um these topological properties
+[00:01:08] are important in themselves and so we
+[00:01:11] start uh with topological
+[00:01:14] properties topological
+[00:01:18] properties
+[00:01:20] one um separation axioms or separation
+[00:01:25] properties
+[00:01:33] definition a topological
+[00:01:37] space m
+[00:01:40] o is called
+[00:01:45] T1 that's the property it's called T1
+[00:01:48] it's called
+[00:01:49] T1
+[00:01:52] if for any two distinct
+[00:02:01] points that means P Point P that's not
+[00:02:05] the same as the point
+[00:02:08] Q There exists an open neighborhood of P
+[00:02:13] there exists a u in the topology that
+[00:02:17] contains P that exists an open
+[00:02:19] neighborhood of P such
+[00:02:22] that P does not lie in
+[00:02:27] U or can write this differently that the
+[00:02:32] set with the element P does not
+[00:02:35] intersect u meaning that the
+[00:02:38] intersection of this one point and the U
+[00:02:41] is
+[00:02:42] empty such a space is called
+[00:02:46] T1
+[00:02:48] definition a topological
+[00:02:53] space m
+[00:02:55] o is
+[00:02:57] called T2
+[00:03:01] and that has another nicer name that's
+[00:03:03] called
+[00:03:05] houseoff houseoff actually came up with
+[00:03:08] the topological axioms he formulated
+[00:03:10] them in terms of neighborhoods but
+[00:03:12] they're fully equivalent to the set I
+[00:03:14] wrote down so a set of axioms I wrote
+[00:03:17] down in the beginning defining it by
+[00:03:19] open sets but howo had one additional
+[00:03:22] axom uh compared to the three and that
+[00:03:25] one is called the houseo Axiom nowadays
+[00:03:28] because so many interest topological
+[00:03:30] spaces do not have that property one
+[00:03:32] removed that axium from the general
+[00:03:34] definition of
+[00:03:36] topology but because for many spaces I
+[00:03:38] mean Hof was very clever he came up with
+[00:03:40] the whole thing in this abstraction um
+[00:03:43] very often you need a how you want this
+[00:03:45] additional property you call it T2 or
+[00:03:49] house
+[00:03:51] um um if for any two distinct points for
+[00:03:57] any P not Q new points like here there
+[00:04:02] exists an open neighborhood of
+[00:04:05] p and an open neighborhood of Q such
+[00:04:10] that the intersection of the two
+[00:04:11] neighborhoods is
+[00:04:15] empty so if one wants to draw a picture
+[00:04:20] intuitively well intuitively we better
+[00:04:23] say what topology we take we take R2 and
+[00:04:25] equip it with the standard topology I
+[00:04:28] have this point and this point if if
+[00:04:29] they're distinct I always find an open
+[00:04:32] set around here and an open set around
+[00:04:36] here such that the open sets do not
+[00:04:39] intersect it's a separation axum now
+[00:04:43] this here the T1 property is for any two
+[00:04:46] distinct points p and Q you always find
+[00:04:50] an open set around P such that the Q
+[00:04:53] doesn't lie in there you see this is
+[00:04:55] stronger here you need two clouds around
+[00:04:58] each point to open neighborhoods here
+[00:05:00] you need only one such that this Li
+[00:05:02] doesn't lie in there and there examples
+[00:05:05] for sets that are T1 but not T2 and so
+[00:05:09] on so
+[00:05:12] example Rd with the standard topology on
+[00:05:16] RD is
+[00:05:20] T2
+[00:05:22] um and hence it's
+[00:05:25] T1 right T1 is weaker than T2
+[00:05:30] um but then there are other examples
+[00:05:32] like for instance the zariski
+[00:05:36] topology that's a topology that appears
+[00:05:38] in algebraic
+[00:05:42] geometry that is
+[00:05:46] T1 but not house dool but it's not T2
+[00:05:51] and uh there will be uh uh a problem on
+[00:05:54] the problem
+[00:05:56] sheet for the zisy topology and the zisy
+[00:05:59] topology ology is very important in
+[00:06:01] algebraic geometry and push the subject
+[00:06:03] forward so that's a very important
+[00:06:06] topology and uh there further separation
+[00:06:09] axium so
+[00:06:12] remark there's also a
+[00:06:15] T3 sorry more more more impressively T2
+[00:06:19] and a half I like this so T2 and a half
+[00:06:23] is you have two distinct points and
+[00:06:25] around one of them there's actually a
+[00:06:27] closed
+[00:06:30] neighborhood such that it doesn't
+[00:06:31] intersect with the other point okay so
+[00:06:34] that's T2 and a half um and then there
+[00:06:37] is T3 and T4 and and
+[00:06:41] whatnot okay they are stronger and
+[00:06:45] stronger separation axioms and uh yeah
+[00:06:49] the original one by Hof is that one but
+[00:06:52] you see there situations in which you
+[00:06:54] want one and then the other and so on so
+[00:06:59] okay so T3 what is T3 um T3 is you have
+[00:07:04] not two points but you have a closed
+[00:07:09] set and the point and around the closed
+[00:07:13] set you find an open set such that that
+[00:07:15] doesn't intersect with the point so you
+[00:07:17] come up with crazy stuff they all have
+[00:07:19] the application in some uh branch of uh
+[00:07:25] mathematics um also on the problem sheet
+[00:07:28] will be the proof Pro that in a hous off
+[00:07:31] space so in a topological space that is
+[00:07:33] hous off you can prove that every
+[00:07:37] sequence that converges has a unique
+[00:07:41] limit point and that's a very intuitive
+[00:07:43] notion it converges to a point well then
+[00:07:45] it doesn't converge to another Point
+[00:07:48] well for the chaotic topology that's not
+[00:07:50] the case as we saw every sequence
+[00:07:52] converges against any point well if that
+[00:07:54] is true what I just said that in a host
+[00:07:56] of space if it converges the convergence
+[00:07:58] point is unique that already shows that
+[00:08:00] the chaotic topology cannot be a host of
+[00:08:03] space of course it's not so counter
+[00:08:05] example to
+[00:08:07] T2 counter example to T2 is um M
+[00:08:14] equipped with the discrete uh with the
+[00:08:16] chaotic topology because you choose any
+[00:08:20] two points in P in m and now you need to
+[00:08:24] find well it's not even uh not even T1
+[00:08:28] it's not even T1
+[00:08:30] because you will never find an open set
+[00:08:32] in which P lies that doesn't contain Q
+[00:08:35] because the only open set in which it
+[00:08:37] can lie is all of M that's on the
+[00:08:39] problem
+[00:08:40] sheet so uh we continue our list of
+[00:08:43] topological properties and as I
+[00:08:46] mentioned there is no complete list of
+[00:08:48] topological properties that you could um
+[00:08:51] require for topological space such that
+[00:08:54] if you had two topological spaces which
+[00:08:57] differed in at least one of this
+[00:09:00] complete list of topological properties
+[00:09:03] you could already conclude they're not
+[00:09:05] homeomorphic indeed no such list is
+[00:09:07] known nevertheless um in many
+[00:09:11] circumstances it's um very convenient to
+[00:09:14] add to the aims on of a general
+[00:09:17] topological space additional uh special
+[00:09:20] topological properties sometimes in
+[00:09:23] order to be able to prove some theorems
+[00:09:25] that you couldn't prove without having
+[00:09:27] that property uh sometimes in order to
+[00:09:30] um understand the situation better it it
+[00:09:33] very much depends uh now the next pair
+[00:09:37] of top uh properties I would like to
+[00:09:39] talk about are compactness and
+[00:09:54] paracompactness so these are two very
+[00:09:57] heavily used topological properties
+[00:10:00] um because indeed very often if you want
+[00:10:03] to prove some theorem um in some
+[00:10:08] setting to which top a topological space
+[00:10:11] is an underlying structure uh very often
+[00:10:14] you would first tackle the proof in a
+[00:10:16] compact case because usually proofs are
+[00:10:20] simpler there and once you understood
+[00:10:22] the problem in a compact case you'd try
+[00:10:25] to extend the theorem to the non-compact
+[00:10:28] case which some sometimes simply is not
+[00:10:30] possible but sometimes it
+[00:10:32] is parac compactness is a much weaker
+[00:10:36] notion than compactness in fact it's so
+[00:10:39] weak that it's very difficult or very
+[00:10:42] yeah very difficult to find any
+[00:10:44] topological spaces that appear naturally
+[00:10:47] if you wish um that are not paracompact
+[00:10:51] I'll present a theorem to that effect
+[00:10:54] and for manifold Theory which will be
+[00:10:56] our concern later paracompactness is a
+[00:10:59] fundamental assumption that we will
+[00:11:01] always make similar to the house do
+[00:11:04] assumption because house do so that was
+[00:11:06] the t2 separation uh property houseof
+[00:11:10] plus parac compactness gives us a very
+[00:11:12] convenient property of a space namely
+[00:11:15] that there exists a so-called partition
+[00:11:17] of unity that is what I'm going to
+[00:11:19] present now but let's first start with
+[00:11:21] the definition of compactness a
+[00:11:24] topological space m MO
+[00:11:31] is called
+[00:11:35] compact if every open
+[00:11:41] cover every open cover has a
+[00:11:46] finite
+[00:11:53] subcover what does that mean what is an
+[00:11:56] open cover to a topological space that's
+[00:11:59] a notion that's useful to
+[00:12:02] know um on its own an open cover so uh
+[00:12:07] if C is a subset of the topology of the
+[00:12:12] space so it's a collection of open sets
+[00:12:15] then C subset of O is called an open
+[00:12:22] cover if very simply the
+[00:12:26] union of all the sets in C already
+[00:12:31] recovers the entire topological space
+[00:12:34] it's the very intuitive notion of
+[00:12:36] covering the topological space that's an
+[00:12:39] open cover what is a finite sub
+[00:12:50] cover so let's be more specific if every
+[00:12:53] open cover C has a finite sub cover C
+[00:13:01] twiddle a finite
+[00:13:04] subcover is a
+[00:13:07] cover C twiddle so subcover is not less
+[00:13:11] than a cover it's certainly as well a
+[00:13:13] cover it's a cover C twiddle such
+[00:13:18] that for
+[00:13:21] every element in the cover for every
+[00:13:24] open set in the cover we have there
+[00:13:28] exists
+[00:13:29] an element you twiddle in C twiddle such
+[00:13:33] that
+[00:13:42] you hang on a second for every U and C
+[00:13:46] there exists a u t in C T no this is
+[00:13:48] already uh this is already the
+[00:13:51] refinement hang on a second that's
+[00:13:54] too weak
+[00:13:59] cover aha yes is a subset of the cover
+[00:14:04] so I I already wanted to write down
+[00:14:06] something weaker which is coming in a
+[00:14:08] second is a cover such that um C
+[00:14:15] twiddle lies in C and it could be C
+[00:14:23] already so you take a cover it's a cover
+[00:14:26] and a finite sub cover is you take out
+[00:14:29] open sets from the cover but you still
+[00:14:32] have a cover and if that cover is finite
+[00:14:36] then you have a finite sub
+[00:14:38] cover so finite subcover is a cover
+[00:14:42] which is a finite subset of the cover
+[00:14:45] that's
+[00:14:48] it that's a compact
+[00:14:51] space and very often one wishes to look
+[00:14:54] at a
+[00:14:56] subset definition a subset
+[00:14:59] that n in M of a topological space m so
+[00:15:05] we still have the topology on M uh is
+[00:15:09] called
+[00:15:12] compact
+[00:15:15] well obviously we have to get a topology
+[00:15:18] for n if it is compact or if n equipped
+[00:15:23] with the topology of
+[00:15:26] M that's topology on M but induced on N
+[00:15:31] is compact as a topological space so by
+[00:15:34] equipping the subset with the subset
+[00:15:36] topology you make it into a top
+[00:15:39] topological space in its own right and
+[00:15:41] if that is compact then the subset is
+[00:15:44] called
+[00:15:45] compact very
+[00:15:48] simple now this cover and subcover
+[00:15:51] business makes it manifest that
+[00:15:54] compactness is a topological property
+[00:15:57] any property that's defined only in
+[00:15:59] terms of the topology is a topological
+[00:16:01] property in particular if you have two
+[00:16:05] homeomorphic topological spaces they
+[00:16:08] will share these topological properties
+[00:16:11] so if m o is a topological space and n o
+[00:16:15] Prime is also a topological space and
+[00:16:18] they're homeomorphic so there exists a
+[00:16:20] homeomorphism between them an invertible
+[00:16:22] map which in both directions is
+[00:16:24] continuous then if one of the spaces is
+[00:16:26] compact the other space is compact too
+[00:16:29] very often you check compactness or any
+[00:16:31] topological property by finding an
+[00:16:33] appropriate homeomorphism to a space of
+[00:16:36] which you know the property anyway so
+[00:16:39] but but this makes this very explicit
+[00:16:42] that it's a topological property it
+[00:16:44] sometimes makes it hard to
+[00:16:47] prove um and there is indeed a very
+[00:16:50] important and famous
+[00:16:53] theorem and that's the theorem of H
+[00:16:56] Borel
+[00:17:00] and that
+[00:17:02] says in a
+[00:17:06] metric
+[00:17:10] space m comma
+[00:17:13] D and if we say in a metric space and we
+[00:17:16] talk about top topology we always assume
+[00:17:20] uh that is
+[00:17:22] equipped with the metric induced
+[00:17:35] topology
+[00:17:39] every uh
+[00:17:42] closed and
+[00:17:47] bounded
+[00:17:53] subset of
+[00:17:55] M is compact
+[00:18:01] okay in a metric
+[00:18:04] space um so I should explain this a
+[00:18:07] little what precisely do we mean by a
+[00:18:09] metric space there different Notions of
+[00:18:12] metric in mathematics and the metric we
+[00:18:15] mean here by a
+[00:18:16] metric in this context one means a
+[00:18:21] map D that takes two elements of the
+[00:18:26] space and Maps it to
+[00:18:30] a non- negative real
+[00:18:35] number such that the following
+[00:18:39] properties are satisfied first the
+[00:18:41] metric acting on MN is the same as the
+[00:18:44] metric on M N M that means from Paris to
+[00:18:48] London it's the same
+[00:18:50] distance like from as it is from London
+[00:18:53] to
+[00:18:54] Paris um B you have a positivity
+[00:18:57] property that is D
+[00:18:59] mm is D
+[00:19:02] MN is always greater or equal to zero
+[00:19:07] and
+[00:19:08] equal if and only if m equals
+[00:19:13] n so two distinct points have always a
+[00:19:16] non-zero distance and property C is the
+[00:19:20] triangle inequality if you go from A to
+[00:19:23] B and then you go from B to C that's
+[00:19:26] that ought to be always a bigger
+[00:19:29] distance or the same distance as if you
+[00:19:32] went from a to c directly it's a
+[00:19:35] triangle inequality so it's this notion
+[00:19:38] of metric later on this course we'll
+[00:19:40] meet a notion of metric in differential
+[00:19:43] geometry which is quite a different
+[00:19:46] Beast uh from such a metric in
+[00:19:48] differential geometry under certain
+[00:19:50] circumstances you can extract such a
+[00:19:52] metric on a manifold but not the other
+[00:19:55] way
+[00:19:56] around so that's a metric space so
+[00:19:59] what's the metric Inus topology uh well
+[00:20:02] you probably guess the metric Inus
+[00:20:07] topology is defined very much like we
+[00:20:10] defined the topology of
+[00:20:12] Rd so I write
+[00:20:15] similarly
+[00:20:17] defined as
+[00:20:20] standard topology on
+[00:20:24] RD but the only thing that differs is
+[00:20:27] that the ball are now somewhat defined
+[00:20:31] in a somewhat more General way the ball
+[00:20:33] around a a point p a ball with radius R
+[00:20:39] in
+[00:20:40] r+ in r+ around the point P of
+[00:20:45] the uh topological space is the set of
+[00:20:48] all Q such that the distance from Q to P
+[00:20:55] is less than R so you see instead of
+[00:20:58] some
+[00:20:59] Norm which clearly induces on RD where
+[00:21:03] you have an addition subtraction and so
+[00:21:06] on um for addition uh where a norm can
+[00:21:10] induce such a metric but there are
+[00:21:12] spaces on which you have no addition you
+[00:21:15] couldn't take the difference between two
+[00:21:17] points to then find the norm then you
+[00:21:20] need a more resolved object that is able
+[00:21:25] to eat to such matrics very famous is
+[00:21:29] the um is the French railroad metric the
+[00:21:33] French railroad
+[00:21:44] metric um works like this you have
+[00:21:47] Paris and you have say Mar and uh uh Cal
+[00:21:53] and uh know nor SE something like this
+[00:21:59] okay and
+[00:22:01] um the intuition is if by train you want
+[00:22:05] to go from Mar to Cal the only way you
+[00:22:08] can go is via Paris because everything
+[00:22:10] goes via Paris every train goes via
+[00:22:12] Paris and um so you can assign distances
+[00:22:16] here but if you want to go from Mar to
+[00:22:18] North se you first go to Paris then you
+[00:22:20] go there and the distance is the sum of
+[00:22:22] those um so this map that assigns then
+[00:22:26] the distance to all these pairs of
+[00:22:28] points in in such a uh um well geometry
+[00:22:32] uh that that satisfies the conditions of
+[00:22:34] a
+[00:22:35] metric um but uh it doesn't satisfy the
+[00:22:38] conditions of a norm if you thought of
+[00:22:41] the word world being a plane uh at
+[00:22:44] least as far as France is covered um you
+[00:22:48] see the the differences and then the
+[00:22:50] Norms you wouldn't find a norm that re
+[00:22:52] reproduces the French railroad metric
+[00:22:55] okay so the metric is something more
+[00:22:57] General than what can be constructed
+[00:23:00] from a norm but for any such you can
+[00:23:02] Define these open bols and you can
+[00:23:05] induce a
+[00:23:07] topology okay so what a close subset
+[00:23:10] with respect to some topology is we know
+[00:23:13] the question is what is a bounded subset
+[00:23:15] now that is now not very difficult you
+[00:23:18] just find a number uh such that
+[00:23:22] um uh the entire all the points of this
+[00:23:25] subset lie within say a circle of a
+[00:23:28] certain radius that is constituted by
+[00:23:30] that number if that's a finite number uh
+[00:23:33] then this the set is bounded okay very
+[00:23:37] intuitive okay so um after all these
+[00:23:40] definitions have been made the important
+[00:23:41] thing is hurel says in a metric space or
+[00:23:44] a space that can be equipped with a
+[00:23:46] metric and then you find the induced
+[00:23:47] topology every closed and bounded subset
+[00:23:50] is compact with respect to that induced
+[00:23:52] topology of course yes uh why is the
+[00:23:56] metric induced topology an element of R
+[00:23:59] plus and not of R plus Z like thec space
+[00:24:04] for you mean this one yeah well thec
+[00:24:08] topology on bottom yeah element of r no
+[00:24:12] no sorry so this R this radius is
+[00:24:15] supposed to be greater than zero yeah
+[00:24:17] yeah yeah so my yeah
+[00:24:20] yeah my my notation gets more and more
+[00:24:23] cryptic but but I I mean this R is just
+[00:24:25] supposed to be non- negative real number
+[00:24:29] okay so that's H Bell and obviously in
+[00:24:31] many many circumstances you would have a
+[00:24:33] metric space so it's very easy to decide
+[00:24:37] um for a closed and bounded subset that
+[00:24:40] it's uh that it's
+[00:24:42] compact okay um so let's have some more
+[00:24:46] examples
+[00:24:51] um uh so a the interval
+[00:24:55] 01 is compact
+[00:25:01] um okay as a subset
+[00:25:05] of the real line which is a metric space
+[00:25:08] because on the real line you can
+[00:25:10] establish a metric by taking the
+[00:25:12] difference between two points and then
+[00:25:14] taking the absolute value that will give
+[00:25:16] you a metric um it's compact in that
+[00:25:19] sense according to H Bell but it's also
+[00:25:22] compact um as a subset of the real
+[00:25:25] number with the topology on the interval
+[00:25:29] being the induced one from the topology
+[00:25:31] on the whole real line well of course it
+[00:25:34] must be because hell holds okay so that
+[00:25:37] interval is compact um the real line is
+[00:25:42] not
+[00:25:45] compact um not compact is usually easy
+[00:25:48] to see because um you just have to find
+[00:25:51] one cover that does not have a finite
+[00:25:55] subcover uh proof
+[00:26:01] construct a
+[00:26:04] cover that has no
+[00:26:09] finite
+[00:26:12] subcover
+[00:26:15] okay that's the real
+[00:26:18] line and I
+[00:26:26] take there's no color TR
+[00:26:28] okay that's
+[00:26:31] bad and I take
+[00:26:33] this
+[00:26:41] cover uhuh that's not a cover yet so
+[00:26:53] I now I cover the real line by by these
+[00:26:57] guys if I take them all to together a
+[00:26:59] collection of open sets and they cover
+[00:27:02] the entire
+[00:27:04] line because their Union recovers the
+[00:27:07] entire line
+[00:27:09] okay but it has no finite subcover there
+[00:27:12] obviously the set C so this is the set C
+[00:27:16] this is obviously has obviously
+[00:27:18] infinitely many
+[00:27:19] elements now if you want to find a sub
+[00:27:22] cover that's finite you have to take
+[00:27:25] some of the elements away obviously but
+[00:27:27] if you take only one of them away the
+[00:27:30] cover property is
+[00:27:32] violated if you take one away you have a
+[00:27:36] subset well you can take many many well
+[00:27:39] but even there is no not even an
+[00:27:41] infinite subset that is still a cover
+[00:27:43] much less is there a finite subset
+[00:27:46] that's still a
+[00:27:47] cover hence not
+[00:27:50] compact okay improv
+[00:27:54] me okay so as I said this notion of
+[00:27:57] compactness um
+[00:28:01] that's
+[00:28:05] important so
+[00:28:08] um quick
+[00:28:12] theorem once you have your collection of
+[00:28:14] compact spaces you can can construct new
+[00:28:17] compact Spaces by looking at m o m o and
+[00:28:24] n o
+[00:28:25] n topological spaces
+[00:28:30] uh that are
+[00:28:37] compact then it follows that the
+[00:28:41] cartisian product of the two
+[00:28:44] spaces how do I make them into a
+[00:28:46] topological space well I can equip them
+[00:28:49] with the product
+[00:28:52] topology then the cartisian product of
+[00:28:54] the topological spaces is again compact
+[00:29:02] and if this works for two cartisian
+[00:29:04] factors it works for finitely
+[00:29:07] many so compactness is inherited to
+[00:29:11] finite
+[00:29:12] products that's
+[00:29:18] good now however compactness is a
+[00:29:22] very strong property and sometimes it
+[00:29:26] simply doesn't hold
+[00:29:28] but still there is a much weaker notion
+[00:29:31] and that's
+[00:29:40] paracompactness a topological
+[00:29:43] space m
+[00:29:47] MO is called parac
+[00:29:55] compact if every
+[00:30:00] open
+[00:30:03] cover of this topological
+[00:30:07] space has a local
+[00:30:13] refinement has a local refinement so
+[00:30:17] let's say again say if every open cover
+[00:30:19] C has a local refinement C
+[00:30:25] twiddle it has an open refinement I'm
+[00:30:27] sorry has an open refinement SE twiddle
+[00:30:30] that is locally
+[00:30:39] finite what does that mean well an open
+[00:30:47] refinement C twiddle of a cover is again
+[00:30:52] a
+[00:30:53] cover SE
+[00:30:56] twiddle but now such that for every u in
+[00:31:01] the original cover there exists a u
+[00:31:05] twiddle in the
+[00:31:09] refinement such that U twiddle
+[00:31:15] lies in
+[00:31:19] you that's a an open refinement well
+[00:31:23] it's
+[00:31:24] again an open cover so it's a cover of
+[00:31:28] consisting of open sets we're only
+[00:31:30] considering open covers here if I should
+[00:31:32] write cover without open I always mean
+[00:31:34] an open
+[00:31:37] cover
+[00:31:39] now when I wrote down the definition of
+[00:31:43] compactness and I wrote down the
+[00:31:45] definition of um subcover I started out
+[00:31:49] like this I said no no that's wrong this
+[00:31:51] is um the point is that uh any subcover
+[00:31:55] is a refinement
+[00:32:03] but not the other way
+[00:32:08] around
+[00:32:16] okay now locally finite what does
+[00:32:19] locally finite mean locally finite
+[00:32:25] means that for every point
+[00:32:28] p in our topological
+[00:32:31] space there exists an open set u that is
+[00:32:36] a neighborhood of P so there exists a u
+[00:32:38] in O that contains
+[00:32:42] P such that so we're talking about the
+[00:32:45] open refinement that's locally
+[00:32:48] finite such
+[00:32:50] that
+[00:32:52] um the intersection of U
+[00:32:58] with
+[00:32:59] elements with a u
+[00:33:03] twiddle from C
+[00:33:09] twiddle is
+[00:33:14] nonempty only for finitely
+[00:33:22] many U twiddle in C twiddle so I should
+[00:33:26] delete it here
+[00:33:29] okay so that if you go to a point in the
+[00:33:32] manifold you find a neighborhood such
+[00:33:34] that this neighborhood has a
+[00:33:36] nonvanishing
+[00:33:38] intersection only with finitely
+[00:33:42] many open sets from this
+[00:33:46] refinement well that definition is quite
+[00:33:48] a bit uh but uh it needs to be made in
+[00:33:52] this way in order to be useful
+[00:33:59] now um essentially from
+[00:34:03] here uh you have the immediate
+[00:34:07] corer that
+[00:34:10] compact implies
+[00:34:14] paracompact so my assertion that parac
+[00:34:18] compactness is a weaker notion than
+[00:34:23] compactness is shown this way
+[00:34:28] compact implies parac
+[00:34:34] compact
+[00:34:38] okay now um let me see whether I
+[00:34:41] first okay so there is a theorem by
+[00:34:52] Stone that says every
+[00:34:58] metrizable
+[00:35:04] space is
+[00:35:10] paracompact is due to
+[00:35:15] Stone a metrizable obviously means that
+[00:35:18] you can equip it with a metric that then
+[00:35:21] induces the
+[00:35:23] topology every metrizable space is parac
+[00:35:26] compact and that already shows you how
+[00:35:30] generic this notion of paracompactness
+[00:35:32] is yeah there are spaces that are not
+[00:35:34] metrizable there are spaces on which you
+[00:35:36] cannot put a metric I'll give an example
+[00:35:39] in a second but it's a very exotic and
+[00:35:41] artificial example but for most spaces
+[00:35:44] in physics um well maybe not all but for
+[00:35:47] most it's it's actually paracompactness
+[00:35:50] is not a very strong condition in that
+[00:35:52] sense but it has a very important um
+[00:35:56] implication which we're going to talk
+[00:35:58] about in a second so let me give you two
+[00:36:04] examples so
+[00:36:07] Rd equipped with the standard topology
+[00:36:10] on RD sometimes I will probably forget
+[00:36:13] to mention with what topology I will
+[00:36:16] equip Rd but whenever I don't
+[00:36:19] specify I mean the standard topology
+[00:36:22] that's the standard um convention uh
+[00:36:26] it's just especially in the beginning
+[00:36:27] it's useful to always remind oneself Rd
+[00:36:30] can be just a set the tuples the D
+[00:36:33] tuples it could be a set equipped with
+[00:36:36] an addition it's then an additive group
+[00:36:39] uh it could also have an S
+[00:36:41] multiplication that makes it then into a
+[00:36:42] vector space okay then on top of it it
+[00:36:46] could have a norm then would be a normed
+[00:36:49] vector space from this Norm you could
+[00:36:51] then make a topology and make it then at
+[00:36:54] that level a topological space which
+[00:36:56] then is the this one and so on so you
+[00:36:59] always think of the different levels of
+[00:37:01] structures you have and always remind
+[00:37:04] yourself if you do certain constructions
+[00:37:06] how much of these how many of these
+[00:37:08] structures do you really use right in
+[00:37:11] physics very often we say well Rd is
+[00:37:13] equipped with just everything you can
+[00:37:14] add you can subtract you have everything
+[00:37:15] at the same time but very often we will
+[00:37:18] not meet RDS that have so much structure
+[00:37:20] but nevertheless you still have this you
+[00:37:22] know just a reminder anyway Rd with the
+[00:37:25] standard topology is parac compact
+[00:37:30] and uh well if you have Stones theorem
+[00:37:34] of course because you equip it with a
+[00:37:35] norm uh and the norm will produce this
+[00:37:38] standard topology the norm makes it
+[00:37:40] metrizable or makes make um induces a
+[00:37:43] metric in the obvious way like I
+[00:37:45] explained before it's
+[00:37:48] paracompact that's good and B um aha
+[00:37:53] there's a thing called the alexandr line
+[00:37:57] or the alexandrov long
+[00:38:00] line that's cute and um so the the idea
+[00:38:03] here I'm not going to to write this down
+[00:38:06] uh so I first say it's not paracompact a
+[00:38:09] counter
+[00:38:12] example and gives you a taste of uh how
+[00:38:15] artificial such spaces are in some sense
+[00:38:19] um so the idea I just sketch the idea
+[00:38:23] the idea is that the standard real line
+[00:38:26] can be understood
+[00:38:28] as taking uh the
+[00:38:31] interval from 0 to 1 left close right
+[00:38:36] open and take this and then put another
+[00:38:39] one attach another one to it and another
+[00:38:42] one to it and another one to it so it's
+[00:38:43] a little bit like um take many of those
+[00:38:47] okay I already write z cross this which
+[00:38:51] is intuitively looks like
+[00:38:56] this this and then this one eats again
+[00:38:59] that one this one eats again that one
+[00:39:02] this one eats and so on okay so you take
+[00:39:05] a
+[00:39:06] ruler and always put one ruler next to
+[00:39:11] the other and you recover the whole real
+[00:39:13] line so the real line is kind of like a
+[00:39:16] accountable product of this interval
+[00:39:19] that's a real line and that's
+[00:39:21] paracompact that we already
+[00:39:25] saw so the idea of the long
+[00:39:28] line let's call it l the long line is
+[00:39:32] now taking this interval but not taking
+[00:39:37] it countably often to get the reals but
+[00:39:41] taking it uncountably often so this is a
+[00:39:44] noncountable set or noncount often
+[00:39:48] noncountable
+[00:39:50] set and this is from uh the theory of
+[00:39:53] ordinal numbers
+[00:40:03] um that's
+[00:40:05] the the smallest such uh ordinal number
+[00:40:08] that's not not
+[00:40:10] finite um well don't ask if you want to
+[00:40:14] read up on this read up on this the idea
+[00:40:16] is take this noncount often and then you
+[00:40:20] get a nonp parac
+[00:40:24] compact topological space and of course
+[00:40:27] course you induce the topology and so on
+[00:40:29] and so on this is rather artificial and
+[00:40:31] the other examples that at least I know
+[00:40:34] of are also rather artificial um so
+[00:40:37] that's the intuition paracompactness is
+[00:40:40] actually something rather
+[00:40:45] natural question so far yeah what the
+[00:40:47] definition
+[00:40:49] of aha uh a metric can be
+[00:40:53] found so every metrizable topological
+[00:40:56] space m o is paracompact a metric can be
+[00:41:00] found such that the topology is induced
+[00:41:03] by the
+[00:41:04] metric and or in other words every
+[00:41:07] topological space where the topology is
+[00:41:11] the one or equivalent to the one induced
+[00:41:13] by a
+[00:41:14] metric is
+[00:41:16] paracompact okay and you know that um we
+[00:41:19] had this before that a
+[00:41:22] topology if you define it by virtue of
+[00:41:26] these open balls on the open balls can
+[00:41:28] have different shapes and forms and that
+[00:41:30] can produce quite the same topology as
+[00:41:33] another shape or form of the
+[00:41:35] balls okay so metrizable it it doesn't
+[00:41:39] want to specify which metric it is it is
+[00:41:42] one that reproduces this it can only be
+[00:41:45] understood in this way uh because parac
+[00:41:48] compactness relies on the topology so
+[00:41:50] you need to make a connection between
+[00:41:52] this metrizability and this topology and
+[00:41:54] so on okay
+[00:41:57] good yeah um one question towards the
+[00:42:00] alexand line how can I really imagine
+[00:42:04] that because you just said like for for
+[00:42:06] the for a par compact line you can
+[00:42:10] imagine stacking ruler on ruler rer
+[00:42:12] infinite amount of rulers along the line
+[00:42:15] but how how can I imagine like this
+[00:42:17] alexand long line well is it like a set
+[00:42:19] of infinite amount of points or or how
+[00:42:22] can I was an uncountable set of um of
+[00:42:26] time you put this after the well I don't
+[00:42:29] know I also intuition escapes me there a
+[00:42:32] little I mean you could already argue
+[00:42:34] this is already difficult to imagine now
+[00:42:36] you have to go in both directions to
+[00:42:37] Infinity well yeah maybe you can think
+[00:42:39] like this idea of potential infinity and
+[00:42:42] so on these are all old ideas um the
+[00:42:45] difference here is countable product and
+[00:42:47] noncountable product and that destroys
+[00:42:50] the
+[00:42:51] paracompactness okay um okay so I mean
+[00:42:56] the proofs for this and obviously you
+[00:42:58] have to uh to use this Omega one set
+[00:43:01] this this first nonfinite ordinal number
+[00:43:03] and so on and uh in order to to prove
+[00:43:07] this
+[00:43:08] okay one remark as you see for many of
+[00:43:12] the theorems and I do not present proofs
+[00:43:14] here because they're rather involved
+[00:43:17] okay and this being a Physics course
+[00:43:19] after all um it's important to
+[00:43:23] understand the Notions understand the
+[00:43:25] definitions very precisely know where
+[00:43:27] where they are applied and get a feeling
+[00:43:29] for how these Notions are connected okay
+[00:43:33] and also how to construct new spaces
+[00:43:35] with such properties from old spaces
+[00:43:37] because at the end of the day you'll
+[00:43:39] have a certain toolbox of spaces of
+[00:43:41] which you know they're connected they're
+[00:43:43] uh compact they're housed off and so on
+[00:43:46] and you compose them and you understand
+[00:43:48] many situations this way so kind of from
+[00:43:51] from a higher point of view uh you can
+[00:43:53] always go to to a topology uh textbook
+[00:43:57] and look up all these proofs we just
+[00:43:59] don't have the time otherwise we spend
+[00:44:00] the entire semester on on on topology
+[00:44:03] but nevertheless it's very valuable to
+[00:44:06] look at these different examples and
+[00:44:08] look at the different um theorems that I
+[00:44:11] present uh in order to uh get an
+[00:44:13] overview over this subject which in many
+[00:44:15] cases is fully sufficient to come to
+[00:44:17] physical applications and to understand
+[00:44:19] them full well okay so um let me give
+[00:44:23] you one more theorem
+[00:44:27] um let m o be a uh parac
+[00:44:34] compact topological space and let n n o
+[00:44:39] m be a compact not parac compact only
+[00:44:43] compact not only even compact
+[00:44:45] topological space uh then M cesan
+[00:44:50] product n is again parac compact
+[00:44:58] and if I write something like this
+[00:44:59] strictly speaking this is only a set
+[00:45:01] it's just a cartisian product a set
+[00:45:03] cannot be paracompact or not a set is a
+[00:45:06] set it's not a topological space but
+[00:45:08] again if nothing specifically is set
+[00:45:11] specifically then we equip always the
+[00:45:14] cesium product of two sets which each
+[00:45:16] carry a topology with the product
+[00:45:19] topology is the understanding so you see
+[00:45:23] um parac compactness doesn't behave
+[00:45:25] quite that well under product taking
+[00:45:29] cesium product taking one of the spaces
+[00:45:32] needs to be compact um well
+[00:45:37] coroller uh if you have a a compact a
+[00:45:41] parac compact space m then you can
+[00:45:45] only attach a
+[00:45:48] finite number of compact spaces
+[00:45:57] in order to have a parac compact space
+[00:46:00] again well at least to be
+[00:46:04] guaranteed to have a parac comp compact
+[00:46:06] space
+[00:46:12] again okay so again like before
+[00:46:16] compactness abstractly defined in terms
+[00:46:18] of covers and the existence of finite
+[00:46:20] sub covers but then intuitively very
+[00:46:23] well understood for uh met spaces in
+[00:46:27] terms of the H borell theorem for parac
+[00:46:32] compactness there is even a a sufficient
+[00:46:35] and necessary Criterion to understand it
+[00:46:38] and that is sometimes taken as and I'm
+[00:46:42] going to present this in a second and
+[00:46:43] this necessary and sufficient Criterion
+[00:46:45] is sometimes taken to be even the
+[00:46:46] definition of
+[00:46:48] paracompactness and will play an
+[00:46:50] important role in manifold Theory so
+[00:46:52] this Criterion I'm talking about is the
+[00:46:55] following theorem
+[00:46:59] and it's not valid for every paracompact
+[00:47:02] space only for House of paracompact
+[00:47:05] spaces so let M
+[00:47:08] Mo be a house
+[00:47:13] of topological
+[00:47:19] space m o
+[00:47:29] then it is parac
+[00:47:35] compact if and only
+[00:47:39] if if and only
+[00:47:42] if every open
+[00:47:47] cover every open cover of that space of
+[00:47:51] course
+[00:47:54] admits a so-called partition of
+[00:48:01] unity
+[00:48:06] subordinate to that
+[00:48:10] cover partition of unity subordinate to
+[00:48:14] that
+[00:48:15] cover well obviously that requires some
+[00:48:21] explanation okay what is a partition of
+[00:48:25] unity so um if and only if every open
+[00:48:30] cover which we give the name c admits a
+[00:48:35] partition of unity subordinate to that
+[00:48:38] cover so a partition of unity is the
+[00:48:45] following subordinate to the cover is
+[00:48:47] the
+[00:48:49] following
+[00:48:50] um it's a
+[00:48:54] set curly f
+[00:49:00] of continuous
+[00:49:05] functions continuous Maps if you wish
+[00:49:08] continuous
+[00:49:09] functions uh well let's say one such F
+[00:49:13] small F goes
+[00:49:16] from functions on this set but they only
+[00:49:20] map
+[00:49:22] into
+[00:49:23] 01 so if I say continuous functions from
+[00:49:26] M to 01 obviously I can only speak of
+[00:49:29] continuity if I know the topology on M
+[00:49:32] well I do it's O and I know the topology
+[00:49:35] on o on the interval o1 well that's of
+[00:49:38] course the induced subset topology from
+[00:49:40] the real line because I said nothing
+[00:49:42] different is a set F of continuous
+[00:49:45] functions
+[00:49:47] F such
+[00:49:51] that
+[00:49:55] a for
+[00:49:59] every F in that
+[00:50:03] collection there
+[00:50:09] exists a u in the cover so you see it's
+[00:50:13] the partition of unity subordinate to a
+[00:50:16] given
+[00:50:17] cover so you find these functions such
+[00:50:20] that there exists a u in
+[00:50:23] C such
+[00:50:25] that and F of P this particular F of P
+[00:50:32] non
+[00:50:33] zero implies that the P already was in
+[00:50:39] that element of the
+[00:50:42] cover could also say the function f has
+[00:50:46] only support has support sorry has
+[00:50:49] support only on that set
+[00:50:53] u that's the
+[00:50:55] first condition
+[00:50:58] condition the second condition is that
+[00:51:02] for
+[00:51:03] all points in the
+[00:51:07] manifold there
+[00:51:13] exists an open
+[00:51:19] neighborhood long word for
+[00:51:22] saying exists in open open neighborhood
+[00:51:26] V
+[00:51:27] that contains p and that itself is
+[00:51:31] open there exists an open
+[00:51:37] neighborhood such that V
+[00:51:41] intersection
+[00:51:46] U non
+[00:51:50] empty only
+[00:51:53] for finitely many
+[00:51:58] u in the
+[00:52:01] cover and if that is the case and then
+[00:52:05] we
+[00:52:06] can look at the function
+[00:52:11] f or all the function FS f for these
+[00:52:16] finitely many U on the cover so only for
+[00:52:19] finitely many U1 to u n in the cover and
+[00:52:25] then you can look at the
+[00:52:30] corresponding
+[00:52:33] FN and they only finitely many
+[00:52:37] n and you
+[00:52:40] require that on
+[00:52:45] V they always sum up to one and that's
+[00:52:49] the partition of unity and the whole
+[00:52:52] business with the
+[00:52:54] finiteness is there in
+[00:52:57] order to have a finite
+[00:53:00] sum
+[00:53:04] instead I'm sorry I'm sorry
+[00:53:08] um I'm sorry this
+[00:53:11] um
+[00:53:13] sorry it's not this this intersection
+[00:53:16] that's already covered by by the
+[00:53:18] refinement I'm sorry such
+[00:53:23] that
+[00:53:24] only finite
+[00:53:29] many neighborhood V only finitely many
+[00:53:32] fub1 to FN in
+[00:53:36] f
+[00:53:39] um are
+[00:53:41] non
+[00:53:43] zero on
+[00:53:45] V and then I take those FS because yeah
+[00:53:48] otherwise didn't make sense a non zero
+[00:53:51] on V and then you take those fs and they
+[00:53:53] sum up to one on V and the whole whole
+[00:53:57] business about paracompactness and this
+[00:54:00] local
+[00:54:02] finiteness which is then mirrored again
+[00:54:04] here it wouldn't work without that is to
+[00:54:07] get a sum with a
+[00:54:09] finite upper
+[00:54:12] limit because this way you avoid issues
+[00:54:15] of convergence if you had an Infinity
+[00:54:18] here you would have a serious and then
+[00:54:20] you would have to worry about
+[00:54:21] convergence and later on when we use
+[00:54:24] paracompactness we simply can canot
+[00:54:26] afford to worry about convergence here
+[00:54:30] hence parac compactness with its local
+[00:54:32] finiteness property saves the day that
+[00:54:35] will be later on the application I will
+[00:54:38] only be able to give you very good
+[00:54:40] examples later on once we have manifolds
+[00:54:42] and want to establish integration on
+[00:54:45] manifolds anyway so the idea later on I
+[00:54:48] will give you an Outlook the idea later
+[00:54:51] on is that if you have a cover you have
+[00:54:54] charts and then this on one such open
+[00:54:59] set of the cover which later on we're
+[00:55:00] going to call a chart you can go to
+[00:55:04] coordinates and you can for instance
+[00:55:06] Define
+[00:55:08] integration on this chart because you
+[00:55:10] define integration on the coordinates
+[00:55:12] but then you have to patch together the
+[00:55:15] integrals on these different uh open
+[00:55:18] sets but they overlap so what do you do
+[00:55:20] in the overlap you integrate here and
+[00:55:22] you integrate there but then you have to
+[00:55:24] somehow mesh this together together you
+[00:55:26] cannot add this because then you would
+[00:55:28] get double the value you actually want
+[00:55:30] to have uh you will have to use this
+[00:55:33] partition of unity in order to smooth
+[00:55:35] the results into each other this will
+[00:55:38] become clear later I just want to show
+[00:55:40] you why uh or give you an idea of why
+[00:55:42] this is so important okay so this is the
+[00:55:45] um Aha and then the big
+[00:55:48] cloud a very big
+[00:55:51] cloud closes that's a partition of unity
+[00:55:57] subordinate to some
+[00:56:00] cover um
+[00:56:08] example
+[00:56:10] um look again at the real line equipped
+[00:56:12] with the standard topology we already
+[00:56:14] know this is paracompact well this is
+[00:56:18] paracompact then every open cover should
+[00:56:20] admit a partition of unity so let's draw
+[00:56:23] again the real line
+[00:56:27] that's the real line and now I take it's
+[00:56:30] true for any open cover so I take this
+[00:56:33] open cover I take this open set as U1
+[00:56:38] and I take this open
+[00:56:41] set as
+[00:56:43] U2 U1 and U2 together constitute an open
+[00:56:48] cover so it goes on now clear now what
+[00:56:52] is a partition of unity in this case
+[00:56:55] well it's a set of continuous
+[00:56:57] functions such for every function that
+[00:56:59] exists a set u such that F not equal to
+[00:57:05] U implies already that P lies in U so um
+[00:57:10] I'm in D need for some color
+[00:57:16] chalk bad
+[00:57:21] luck okay so um this will look messy
+[00:57:27] um for instance I could start one
+[00:57:30] function
+[00:57:32] so so now I draw functions over R so now
+[00:57:36] I also
+[00:57:39] introduce uh such an axis I could go up
+[00:57:43] from
+[00:57:47] zero to one like I reach one
+[00:57:52] here and then I go like this so this is
+[00:57:56] at height
+[00:57:58] one and this would be function
+[00:58:01] F2 and you see for this
+[00:58:05] F2 there is a set
+[00:58:09] U2 such that so in F2 is zero
+[00:58:15] here for this F there is a u such that
+[00:58:19] if f is none equal to
+[00:58:21] zero at those points you are in U2
+[00:58:28] that's one such guy but now I need
+[00:58:31] another such
+[00:58:38] guy ah okay so this is supposed to be a
+[00:58:40] straight
+[00:58:42] line straight line and that straight
+[00:58:45] line goes here like this also at height
+[00:58:50] one and that we call
+[00:58:52] F2
+[00:58:54] fub1 you see this F one has the property
+[00:58:57] it's
+[00:58:58] nonzero only on U1 because once we leave
+[00:59:02] U1 or we go to this point here that is
+[00:59:06] no longer a part of U1 fub1 already
+[00:59:09] assumed the value zero and then it
+[00:59:11] continues
+[00:59:13] here at level zero do you see the two
+[00:59:16] functions fub1 and FS2 over the real
+[00:59:18] line I
+[00:59:20] drew okay now are these two functions if
+[00:59:24] uh I equip
+[00:59:26] here the
+[00:59:29] 01 interval with the induced topology as
+[00:59:33] I said I would and I equip this r with
+[00:59:36] the induced topology are these two
+[00:59:39] functions
+[00:59:41] continuous you got to check the answer
+[00:59:43] is yes they are continuous so I found
+[00:59:46] two continuous functions such that for
+[00:59:48] every of the functions I have only two
+[00:59:50] F1 and F2 there exists a u in the cover
+[00:59:53] such that the functions only are only
+[00:59:56] non Vanishing on a particular on this
+[01:00:00] particular U well they can overlap they
+[01:00:02] can also be non zero on another U but
+[01:00:05] they cannot be zero outside the U that I
+[01:00:09] assigned them or that I found for them
+[01:00:12] and now the question is is it true that
+[01:00:14] for all p in the space let's say this
+[01:00:17] one there exists an open
+[01:00:20] neighborhood say this
+[01:00:23] one such that only finitely many FS are
+[01:00:26] nonzero on here well I have only two FS
+[01:00:30] I have only a cover of two it's trivial
+[01:00:32] that there are finitely many the
+[01:00:34] situation could be worse but here it's
+[01:00:36] trivial and the question is is it true
+[01:00:40] that on
+[01:00:42] each uh element on each neighborhood of
+[01:00:46] the space the sum of the functions
+[01:00:48] always one so I could have taken this
+[01:00:50] point and consider this neighborhood V
+[01:00:54] okay is it true that every point of V
+[01:00:57] the sum of these finitely many functions
+[01:00:59] that are non zero adds to one yes it
+[01:01:02] does because where this function here is
+[01:01:05] zero this one is one if this one
+[01:01:07] decreases linearly with slope minus one
+[01:01:10] this one increases linearly with slope
+[01:01:12] one the sum of the two is always one
+[01:01:16] that is this and now you can maybe
+[01:01:19] imagine we're we're not there yet by far
+[01:01:21] we're not there yet but imagine you you
+[01:01:24] could Define integrals on one subset and
+[01:01:27] on the other subset for a function that
+[01:01:30] goes over the whole
+[01:01:34] Space then you could use these guys to
+[01:01:38] put weights on the integrals that come
+[01:01:40] the contributions that come from
+[01:01:42] different overlapping subsets that's the
+[01:01:45] idea why you want this partition of
+[01:01:46] unity and you only want you want that
+[01:01:49] this works for finitely many functions
+[01:01:51] such that if you define here an integral
+[01:01:54] you can take the sum of integrals and
+[01:01:56] you can exchange the sum with the
+[01:01:57] integral because there's no limit
+[01:01:59] because you have no series to Infinity
+[01:02:01] you don't have to worry about the
+[01:02:03] exchange of limits of sums and integrals
+[01:02:05] in the definition of an integral there
+[01:02:07] is a sum in the definition of the uh
+[01:02:10] series with infinity up here that's
+[01:02:12] actually of course you know the the
+[01:02:14] limit of the partial sums so it's also
+[01:02:16] limit and if you want to exchange them
+[01:02:18] when can you exchange under what
+[01:02:20] circumstances very roughly speaking can
+[01:02:21] you exchange limits and
+[01:02:24] integrals if the
+[01:02:26] sequences
+[01:02:28] are Pard me no uniformly convergent
+[01:02:32] uniformly convergent okay anyway just
+[01:02:34] just just as a reminder and as an
+[01:02:36] Outlook so at this point this is just an
+[01:02:38] example so these partitions of unity
+[01:02:40] they come with this formal cloud of of
+[01:02:44] of stuff but in in fact the idea is
+[01:02:47] extremely simple and Par compactness
+[01:02:50] guarantees you you have only only
+[01:02:52] finitely many such interpolating
+[01:02:54] functions if you wish meshing functions
+[01:02:58] that's the whole that's the whole point
+[01:03:00] and that is why why we will need
+[01:03:04] it so the next two um topological
+[01:03:07] Notions we're going to look at are
+[01:03:09] connectedness and path
+[01:03:22] connectedness and they're very useful
+[01:03:24] indeed because they tell us whether a
+[01:03:28] space consists of one piece or several
+[01:03:32] pieces okay and if a space consists a
+[01:03:35] topological space consists of several
+[01:03:37] pieces in a certain sense to be defined
+[01:03:40] then you can study the individual pieces
+[01:03:42] so you decompose your whole space into
+[01:03:44] building blocks and you understand the
+[01:03:46] space from the building blocks so it's a
+[01:03:47] basic principle that you try to
+[01:03:49] understand things from the building
+[01:03:50] blocks so
+[01:03:53] definition a topological space m
+[01:03:59] o is
+[01:04:02] called um
+[01:04:06] connected unless there
+[01:04:10] exists there
+[01:04:12] exist two
+[01:04:14] to
+[01:04:18] non-empty non
+[01:04:24] intersecting open set
+[01:04:28] A and
+[01:04:30] B such that the entire space m
+[01:04:34] decomposes into a and b and because A
+[01:04:37] and B are non- intersecting it's a
+[01:04:39] disjoint Union so sometimes one puts a
+[01:04:41] little dot on top of here in order to
+[01:04:43] emphasize that fact that is
+[01:04:47] connected so um
+[01:04:50] example uh if you take the real line
+[01:04:55] and you take out the empty
+[01:04:59] set and you equip this with the standard
+[01:05:04] topology with the topology that's
+[01:05:06] induced by the standard topology on that
+[01:05:10] subset what else if I had said nothing
+[01:05:13] else would be this you look at this set
+[01:05:18] and this set is not
+[01:05:21] connected not connected and the
+[01:05:24] intuition is quite simple um
+[01:05:28] because let
+[01:05:32] a uh be the interval from minus infinity
+[01:05:35] to zero both exclusively and let B be
+[01:05:39] the interval from 0 to plus infinity
+[01:05:42] it's clear they're both
+[01:05:46] nonempty they're both non
+[01:05:50] intersecting and they're both open
+[01:05:56] in the induced topology so for short I
+[01:05:59] will call this induced topology curly o
+[01:06:02] they're both
+[01:06:03] open
+[01:06:06] and M is clearly if this is the set
+[01:06:11] m m is
+[01:06:14] clearly the union of the
+[01:06:17] two that's it so this is clearly not
+[01:06:24] connected now um very useful
+[01:06:29] theorem a little work to prove is that
+[01:06:34] the
+[01:06:37] interval
+[01:06:42] 01 equipped with Indus topology from R
+[01:06:47] is
+[01:06:53] connected once you know that you can
+[01:06:55] show a number of different
+[01:06:59] things now one of the aspects of looking
+[01:07:05] only at Connected parts of your space is
+[01:07:10] that a rather weird property of
+[01:07:14] topological spaces namely that you can
+[01:07:16] have sets that are both open and closed
+[01:07:19] at the same time is removed on such
+[01:07:23] connected pieces on connected Ed
+[01:07:26] topological spaces or on individual
+[01:07:28] building blocks if the space is not
+[01:07:31] connected of course not for the empty
+[01:07:33] set in the entire set because that is
+[01:07:35] always open and closed but we have the
+[01:07:41] theorem a topological
+[01:07:45] space is
+[01:07:48] connected if and only if
+[01:07:55] the empty set and the entire set so I
+[01:07:59] should say topological space m MO is
+[01:08:01] connected if and only if the empty set
+[01:08:04] and the entire set are the only
+[01:08:08] sets only
+[01:08:11] subsets that are both open and
+[01:08:22] closed okay so let's try to prove that
+[01:08:28] to get some practice in working with
+[01:08:31] this
+[01:08:32] notion so uh let's first try to prove
+[01:08:36] this direction so you see you have an if
+[01:08:38] and only if so you have an arrow in One
+[01:08:40] Direction arrrow in the other direction
+[01:08:42] let's first take if
+[01:08:46] connected uh then zero and M are the
+[01:08:49] only subsets that are both open and
+[01:08:51] closed so let's do this by contradiction
+[01:08:56] [Applause]
+[01:08:59] suppose uh there
+[01:09:03] is
+[01:09:04] another set u subset
+[01:09:10] M that is open and closed at the same
+[01:09:18] time and obviously another by this I
+[01:09:20] mean uh U is not the empty set and U is
+[01:09:24] not the entire
+[01:09:26] set suppose you got such a set open and
+[01:09:30] close
+[01:09:32] set
+[01:09:34] then you can write m equal U Union m
+[01:09:41] without U well that's always true for
+[01:09:43] any
+[01:09:44] subset but now the
+[01:09:47] uh interesting part here is U is open
+[01:09:52] by assumption it's also non-empty by
+[01:09:59] assumption now this
+[01:10:02] set m without you U is open so m without
+[01:10:05] you is closed but U is also closed so m
+[01:10:10] without you is open
+[01:10:13] again by the virtue of U being closed so
+[01:10:16] this is open again and it's also
+[01:10:19] nonempty it could only be empty If U was
+[01:10:22] M but U equals m is also excluded
+[01:10:26] and by construction it's a disjoint
+[01:10:28] Union U has no intersection with m
+[01:10:32] without U so in fact we found
+[01:10:37] decomposition into open non-
+[01:10:39] intersecting non-empty subsets under the
+[01:10:43] assumption that means m is not
+[01:10:49] connected but it was the assumption that
+[01:10:51] m is connected we assumed the negation
+[01:10:54] of the
+[01:10:55] conclusion and we
+[01:10:57] obtained that implies the negation of
+[01:11:00] the Assumption that's exactly our proof
+[01:11:03] by
+[01:11:05] contradiction hence this direction is
+[01:11:08] proven connected implies only zero and
+[01:11:11] only the empty set and M are open and
+[01:11:14] closed at the same
+[01:11:17] time so let's try to go in the opposite
+[01:11:22] direction um
+[01:11:26] so we assume m is not
+[01:11:34] connected well that immediately implies
+[01:11:36] there exist non
+[01:11:40] non-empty non-
+[01:11:43] intersecting
+[01:11:45] open subsets A and
+[01:11:48] B such
+[01:11:51] that M can be written as a decomposition
+[01:11:55] of the
+[01:11:56] two but then
+[01:12:01] B must already be m without
+[01:12:06] a it's also
+[01:12:12] clear
+[01:12:14] um so we wanted to show that there's
+[01:12:17] another
+[01:12:22] um so now a is
+[01:12:28] open hence m without a is
+[01:12:38] closed
+[01:12:40] ahuh but because a is
+[01:12:43] nonempty and B is also
+[01:12:46] nonempty a cannot be the entire
+[01:12:52] set
+[01:12:53] hence that is
+[01:12:56] closed on a must be open but we already
+[01:12:58] knew
+[01:13:04] that ah but B is open so B is
+[01:13:08] open so m without a is closed but it's
+[01:13:11] also
+[01:13:13] open because this is
+[01:13:18] p okay no you're not yeah it's also open
+[01:13:22] because it's not b
+[01:13:28] and
+[01:13:31] thus a must be closed thus we have a set
+[01:13:35] a that is
+[01:13:39] nonempty that's not the entire
+[01:13:42] set because otherwise B wouldn't be
+[01:13:48] non-empty and it is
+[01:13:50] closed but it was open as well so it's
+[01:13:53] closed and open
+[01:13:56] and this is not the empty set or M as I
+[01:13:58] just
+[01:14:03] argued so if m is not connected then it
+[01:14:09] follows you can
+[01:14:11] construct a set that's not empty this
+[01:14:14] empty set or the entire set that's both
+[01:14:16] closed and open hence you have the
+[01:14:19] opposite
+[01:14:20] direction that's it okay
+[01:14:25] so in a sense this kind of reconciles
+[01:14:28] our intuitive notion of open and close
+[01:14:31] being
+[01:14:32] incompatible well for the extreme cases
+[01:14:34] it still is and must be compatible but
+[01:14:36] for the other cases it's excluded if you
+[01:14:38] look only at a connected piece of your
+[01:14:42] topological
+[01:14:47] space
+[01:14:48] now
+[01:14:50] intuitively um there is another notion
+[01:14:53] of connectedness namely if if you can go
+[01:14:55] if you can walk from one place to the
+[01:14:58] other in a continuous along a continuous
+[01:15:00] curve and in fact that's a stronger
+[01:15:03] notion of connectedness which is also
+[01:15:05] very important definition a topological
+[01:15:09] space m MO is called path
+[01:15:15] connected it's called path
+[01:15:19] connected if for every pair
+[01:15:25] of
+[01:15:27] points p and Q in the
+[01:15:32] set there
+[01:15:35] exists a continuous
+[01:15:38] [Music]
+[01:15:42] curve curve
+[01:15:47] gamma with the parameter range
+[01:15:50] 01 into M such that the Curve starts at
+[01:15:55] the point p and the curve ends at the
+[01:15:59] point q and the key Point here is that
+[01:16:02] the curve be
+[01:16:09] continuous so
+[01:16:13] examples Rd with the standard
+[01:16:17] topology is path
+[01:16:21] connected uh the proof or the sketch of
+[01:16:24] the proof is very very simple take two
+[01:16:26] points PQ out of
+[01:16:28] Rd and Define the
+[01:16:31] curve by starting at p and going Lambda
+[01:16:35] time Q minus p and Lambda is the
+[01:16:39] parameter so should write gamma of
+[01:16:42] Lambda is p + Lambda Q minus
+[01:16:46] p and the addition here and the
+[01:16:49] multiplication with scalers is the
+[01:16:51] component wise defined addition and
+[01:16:53] multiplication with scal on the D tubil
+[01:16:56] here and this curve it can be quickly
+[01:17:00] checked uh is
+[01:17:03] continuous it's just a straight line
+[01:17:05] connecting the two and in the standard
+[01:17:07] topology that's continuous so between
+[01:17:10] any two points there exists such a curve
+[01:17:13] it's the first example the second
+[01:17:16] example for a not path connected space
+[01:17:19] one has to work a little harder um we
+[01:17:22] Define the set s
+[01:17:25] how does that look that's a um
+[01:17:28] graph
+[01:17:30] x
+[01:17:32] um 1 /x no hang on that's uh s 1
+[01:17:42] /x and uh the
+[01:17:44] X uh comes from the interval uh
+[01:17:51] 01 but the zero is
+[01:17:53] excluded and you also have to take the
+[01:17:56] point 0
+[01:17:58] 0 into it and all of this supposed to be
+[01:18:02] considered as a subset of the plane
+[01:18:05] equipped with the standard topology then
+[01:18:09] of course this subset
+[01:18:12] inherits a topology and we should look
+[01:18:16] at what this set is so if I have the
+[01:18:19] plane here the R2 plane the tuples
+[01:18:22] there's the 0 0 line then um this thing
+[01:18:27] looks
+[01:18:30] uh for X going to zero looks crazy
+[01:18:38] okay somehow like that and the space
+[01:18:42] we're talking about is this space s so
+[01:18:46] the set of these points the points of
+[01:18:48] the graph and out here on R2 we have a
+[01:18:53] topology OS and we equip the subset s
+[01:18:57] with the induced topology on
+[01:19:01] S and that is topological space we look
+[01:19:04] at and this guy is not path
+[01:19:10] connected not path
+[01:19:15] connected but it is
+[01:19:20] connected so this is an example that
+[01:19:24] connected
+[01:19:25] is weaker than path
+[01:19:28] connectedness and indeed we have the
+[01:19:35] theorem that path
+[01:19:39] connected implies
+[01:19:43] connected and this example here shows
+[01:19:46] that in
+[01:19:48] general and that means it
+[01:19:50] doesn't go the other way around
+[01:20:04] so let's try to prove
+[01:20:11] this so assume a space is connected so
+[01:20:15] by
+[01:20:19] contradiction
+[01:20:22] suppose uh the space M
+[01:20:25] MO is
+[01:20:28] connected but um is not connected but
+[01:20:31] path path connected okay is path
+[01:20:33] connected is path
+[01:20:39] connected without being connected but
+[01:20:43] not
+[01:20:45] connected that would be in direct
+[01:20:47] contradiction to this theorem and we
+[01:20:49] want to
+[01:20:51] um derive a contradiction from this m o
+[01:20:54] is is path connected but not connected
+[01:20:56] well if it's not
+[01:20:58] connected then immediately it means
+[01:21:00] there exist
+[01:21:03] non-empty non-
+[01:21:08] intersecting open sets
+[01:21:11] a such
+[01:21:13] that the entire
+[01:21:16] set
+[01:21:19] decomposes that's not
+[01:21:22] connected now if these two sets are
+[01:21:25] nonempty we can choose points a point a
+[01:21:30] in a and a point B in
+[01:21:33] B if they were empty that would be a
+[01:21:36] problem choose a in A and B in
+[01:21:40] B
+[01:21:41] since the space m o by assumption is
+[01:21:46] path
+[01:21:50] connected that means there exists a
+[01:21:53] continuous curve
+[01:21:58] gamma from 01 into M such that gamma of
+[01:22:03] zero is a and Gamma of one is
+[01:22:08] B it's a continuous curve and that's
+[01:22:11] really very
+[01:22:21] important now we can actually look at
+[01:22:25] the
+[01:22:28] preimage of
+[01:22:31] M the preimage of M under gamma well
+[01:22:36] that must be the whole domain of gamma
+[01:22:38] and that's the range over which the
+[01:22:41] parameter runs that's clear it's the
+[01:22:44] pre-image of M under gamma but we know
+[01:22:48] that the pre-image gamma that m is a
+[01:22:53] union B
+[01:22:55] but what do we know of the Union of the
+[01:22:58] pre-image of a union well we know the
+[01:23:01] pre-image of the Union is the union of
+[01:23:04] the
+[01:23:10] pre-images if in doubt write down the
+[01:23:12] definition of the pre-image this is
+[01:23:14] totally obvious it's the the union of
+[01:23:17] the pre-image of the Union is the union
+[01:23:19] of the
+[01:23:20] pre-images now A and B
+[01:23:24] were nonempty non- intersecting they
+[01:23:26] were
+[01:23:27] open now gamma is continuous and a is
+[01:23:31] open what do we know about the pre-image
+[01:23:34] of an open set under a continuous
+[01:23:37] map the pre-image of open
+[01:23:41] sets are open so this year is
+[01:23:46] open and this
+[01:23:49] year is also open
+[01:23:55] now A and B were non
+[01:24:02] intersecting hence these are also
+[01:24:10] disjointed
+[01:24:18] right well a point and a parameter can
+[01:24:22] you not map you at the same time into a
+[01:24:25] and
+[01:24:26] b if a and b are
+[01:24:29] disjoined hence these two sets are
+[01:24:33] disjoint and the question is are they
+[01:24:36] nonempty yes they're nonempty because
+[01:24:38] there's an A in A and A B and B that are
+[01:24:40] at the end points of the curves so
+[01:24:42] they're open and they're both
+[01:24:46] non-empty so at least the zero is in
+[01:24:51] here and at least the one is in here
+[01:24:55] because A and A and B and B and the
+[01:24:56] curve end points Being A and B they're
+[01:25:00] also
+[01:25:01] nonempty and they're non
+[01:25:09] intersecting
+[01:25:11] um hang on what do we want to to
+[01:25:15] show ah yeah sure no no everything is
+[01:25:17] fine so that means we have the interval
+[01:25:21] from 0 to 1 and we decompose osed it
+[01:25:25] into two open non-empty non-
+[01:25:27] intersecting sets that implies that the
+[01:25:31] interval 01 is not
+[01:25:35] connected now we start with the not
+[01:25:37] connectedness of the topological space
+[01:25:39] we now have the not connectedness of
+[01:25:41] this interval and we know that is not
+[01:25:44] true that's a
+[01:25:46] contradiction hence a space cannot be
+[01:25:50] connected a path connected but not
+[01:25:52] connected end of proof
+[01:26:10] okay questions
+[01:26:15] here now there is a notion of simple
+[01:26:19] connectedness and I could Define this
+[01:26:21] now but I rather uh decide to move this
+[01:26:24] to the next section which we're going to
+[01:26:27] study now uh where it also this question
+[01:26:30] for simply connectedness and so on leads
+[01:26:33] to the very important notion of the
+[01:26:35] fundamental group so we have
+[01:26:38] 2.8 homotopic
+[01:26:43] curves and the fundamental group
+[01:26:57] so far uh we constructed topological
+[01:27:01] properties again that's a property of a
+[01:27:02] topological space that has been
+[01:27:04] constructed solely from its
+[01:27:07] topology so far we considered
+[01:27:09] topological properties of a yes no
+[01:27:12] character it's housed off or not it's
+[01:27:15] compact or not it's connected or not
+[01:27:16] it's paracompact or not yes no yes no
+[01:27:19] yes no now we're going to Define group
+[01:27:23] valued properties so the property is not
+[01:27:26] yes or no the property is the group with
+[01:27:29] two elements and that and that operation
+[01:27:31] on it okay and again if two topological
+[01:27:36] spaces are associated with different
+[01:27:39] groups like we going to Define them then
+[01:27:42] they cannot be
+[01:27:45] homeomorphic but still again
+[01:27:47] unfortunately it doesn't suffice to
+[01:27:49] check for two topological spaces that
+[01:27:51] they have the same groups for instance
+[01:27:54] same fundamental groups uh to already
+[01:27:57] conclude their homeomorphic I repeat
+[01:27:59] this again and again there is no such
+[01:28:01] list of properties anyway so um so first
+[01:28:06] we need an auxiliary notion that's the
+[01:28:08] notion of two homotopic curves very very
+[01:28:12] intuitive notion I I draw many pictures
+[01:28:15] so two
+[01:28:17] curves
+[01:28:18] gamma from 01 into a topological space m
+[01:28:26] uh and Delta from 01 into well a set M
+[01:28:30] that underlies a topological space where
+[01:28:33] m o is a topological
+[01:28:37] space are
+[01:28:40] called
+[01:28:44] homotopic if and now we use a lot of
+[01:28:49] what we did so far if there exists
+[01:28:55] a continuous
+[01:29:00] map let's call it h like
+[01:29:04] homotopy there exists a continuous map
+[01:29:07] age that takes you from
+[01:29:10] 01 cesium product 01 of course both of
+[01:29:14] those equipped with the induced topology
+[01:29:16] from the standard topology and then the
+[01:29:18] cartisian product being equipped with
+[01:29:20] the product topology so this is all a
+[01:29:23] topological space
+[01:29:25] SP
+[01:29:28] into the topological space m and only
+[01:29:32] because we know the topology here on
+[01:29:34] this whole set and we know the topology
+[01:29:36] here we can meaningfully talk about the
+[01:29:39] continuous map if there exists a
+[01:29:41] continuous map H 0101 to M such that
+[01:29:45] well uh you can think of this
+[01:29:48] parameter as still being the parameter
+[01:29:51] that was here for the individual curves
+[01:29:53] and the other parameter is one that
+[01:29:55] interpolates between the curves so more
+[01:29:58] precisely such that h of 0 comma
+[01:30:05] Lambda simply reproduces the curve
+[01:30:09] gamma for Lambda in
+[01:30:13] 01 and AG of 1 comma Lambda reproduces
+[01:30:18] the curve Delta of
+[01:30:21] Lambda okay and obviously for all all
+[01:30:24] the intermediate values that must be
+[01:30:26] curves well where do they lie well
+[01:30:28] because of the continuity intuitively
+[01:30:31] they lie in between so
+[01:30:35] pictorially I aha okay sorry I should
+[01:30:38] have taken two curves no problem here uh
+[01:30:42] with the same starting and end
+[01:30:45] point I think that is what I want yeah
+[01:30:47] that's what I want so um where gamma of
+[01:30:50] 0 is Delta of 0 and Gamma of 1 is Delta
+[01:30:54] of one so let's take two point two
+[01:30:56] curves that start at the same points
+[01:30:58] let's say this is gamma and let's say
+[01:31:01] this is Delta the curve and then the
+[01:31:05] homotopy in a sense you have lots of
+[01:31:08] curves intuitively that lie in between
+[01:31:13] and you
+[01:31:14] can continuously deform the curve Delta
+[01:31:18] into the curve gamma and this guy here
+[01:31:21] in between would be for instance h12
+[01:31:25] comma open slot because the entire curve
+[01:31:28] that lies in between there and the whole
+[01:31:32] statement of delta or gamma can be
+[01:31:34] continuously deformed into
+[01:31:37] Delta is formally encoded in the idea
+[01:31:41] that you have one continuous map on this
+[01:31:44] product
+[01:31:46] space so whenever somebody talks about
+[01:31:48] continuous deformation it's something
+[01:31:50] like
+[01:31:51] this okay interpolation
+[01:31:54] map
+[01:31:55] here
+[01:31:57] okay now we can define an equivalence
+[01:32:02] relation we can call two
+[01:32:06] curves with the
+[01:32:10] same start and end
+[01:32:17] point are called
+[01:32:22] equivalent well we already did that we
+[01:32:24] already called them homotopic uh
+[01:32:29] okay being unnecessarily repetitive here
+[01:32:34] so let's say two curves with the same
+[01:32:36] starting and end point gamma and
+[01:32:38] Delta we use the symbol if gamma
+[01:32:45] homotopic if Gamma Delta are
+[01:32:48] homotopic and uh it's a
+[01:32:52] fact that this is an equivalence
+[01:32:59] relation well every curve is homotopic
+[01:33:01] to itself that's easy to do um if gamma
+[01:33:05] is homotopic to Delta then Delta is
+[01:33:07] homotopic to Lambda you get this by just
+[01:33:09] uh well having something at age of one
+[01:33:13] minus Sigma and then you let Sigma run
+[01:33:16] um and it's transitive well you can
+[01:33:19] check but it's intuitively clear if you
+[01:33:21] can continuously form Delta into gamma
+[01:33:23] you can can deform gamma into Epsilon
+[01:33:26] then you can also continuously deform
+[01:33:28] Delta into Epsilon it's an equivalence
+[01:33:30] relation and we know the nice thing
+[01:33:33] about equivalence relations Is that uh
+[01:33:35] they come in handy in putting on your
+[01:33:38] glasses your equivalence your your
+[01:33:42] quotient space classes and only see the
+[01:33:45] classes no longer the individual
+[01:33:47] representatives and um in order to do so
+[01:33:50] we first Define another class of Curves
+[01:33:53] where will apply this and that's the
+[01:33:56] space of
+[01:33:57] Loops definition um let MB m o be a
+[01:34:04] topological
+[01:34:06] space uh then for
+[01:34:11] every P and M we
+[01:34:15] Define the space of
+[01:34:22] Loops at the point
+[01:34:24] p as call this guy curly L the loops at
+[01:34:30] the point
+[01:34:32] p and those are all the continuous
+[01:34:37] curves
+[01:34:38] gamma from 0 to 1 into
+[01:34:43] M that are
+[01:34:46] continuous nice but where also the
+[01:34:50] starting point coincides with the end
+[01:34:53] point
+[01:34:55] point so quite
+[01:34:59] obviously this is a
+[01:35:04] loop okay that's the space of Loops now
+[01:35:09] on this space of Loops we can actually
+[01:35:12] establish
+[01:35:14] a well
+[01:35:16] concatenation
+[01:35:19] Define
+[01:35:21] uh how do we call this
+[01:35:24] star star what does star do star takes
+[01:35:28] loop at the point P well strictly
+[01:35:31] speaking it's star at P okay uh it takes
+[01:35:35] a loop at p and it takes yet another
+[01:35:37] loop at p and it constructs from it a
+[01:35:41] new loop at P how does it do
+[01:35:44] that um well it takes one Loop
+[01:35:48] gamma
+[01:35:49] star a loop Delta so Gamma Delta are now
+[01:35:54] Loops same starting end point if they're
+[01:35:57] a loop they have a range from 01 so for
+[01:36:00] some Lambda that runs from0 to
+[01:36:04] one inclusively both
+[01:36:07] sides we Define this
+[01:36:11] concatenation as gamma of 2
+[01:36:15] Lambda for Lambda for 0 less or equal to
+[01:36:21] Lambda less than 1
+[01:36:24] 12 or less yeah less than2 and
+[01:36:28] Delta
+[01:36:30] of 2 lamb minus
+[01:36:33] 1
+[01:36:35] for 12 less or equals to
+[01:36:38] Lambda uh less or equal to
+[01:36:41] one and this guy here we
+[01:36:45] call the
+[01:36:52] concatenation operation
+[01:36:54] and it produces a new Loop and the
+[01:36:57] intuition is you have one Loop and you
+[01:37:00] have a second
+[01:37:02] Loop say this one what you do you if you
+[01:37:06] concatenate them you get one Loop that's
+[01:37:08] the following Loop that consists of you
+[01:37:10] run through the first loop at Double
+[01:37:13] speed well speed doesn't matter to the
+[01:37:16] topology and then you run through the
+[01:37:19] second Loop because at 1 half you are at
+[01:37:23] zero here and you run to one you then
+[01:37:26] run through the second Loop and you come
+[01:37:29] back and the whole thing all together is
+[01:37:30] a loop because it's the same starting
+[01:37:33] and end point and um yeah so these are
+[01:37:37] those guys you have this concatenation
+[01:37:40] of
+[01:37:43] Loops now it's very silly to look at
+[01:37:46] this thing where well what's the
+[01:37:48] difference between this picture and
+[01:37:54] this picture I mean apart from them
+[01:37:55] being at different points I want them at
+[01:37:57] the same point well it's slightly
+[01:37:58] different because my copying
+[01:38:00] capabilities are not so good but you say
+[01:38:02] well that's the same thing it's the
+[01:38:05] same situation well it becomes even more
+[01:38:08] the same situation or more obvious if
+[01:38:11] here you had taken out if so before the
+[01:38:15] the the Blackboard was the topological
+[01:38:17] space m but now take this point out
+[01:38:19] remove this
+[01:38:22] point then and this Loop encloses this
+[01:38:26] point and this one doesn't and we know
+[01:38:30] that these two Loops cannot be
+[01:38:33] homotopic because I can no longer
+[01:38:36] continuously deform one in order to
+[01:38:39] produce the other intuitively it's clear
+[01:38:41] because this hole I mean in the plane
+[01:38:44] this hole prevents me from going over it
+[01:38:47] in a continuous way it's the intuition
+[01:38:49] so these are not homotopic and what we
+[01:38:52] would like to look at is not not the
+[01:38:53] space of Loops but at the space of Loops
+[01:38:57] modulo
+[01:38:59] homotopy we don't care where exactly the
+[01:39:02] loop lies as long as the situations are
+[01:39:05] continuously
+[01:39:07] connected
+[01:39:11] so
+[01:39:15] definition the fundamental
+[01:39:21] group the fundamental group group and it
+[01:39:23] has a name it's called pi and because
+[01:39:27] the other groups that can be built in
+[01:39:30] higher well if you don't come from a
+[01:39:32] circle well we come to that in a second
+[01:39:34] we call it Pi 1 the fundamental group Pi
+[01:39:37] 1 of a topological
+[01:39:45] space uh
+[01:39:48] is the set okay the group must be a set
+[01:39:53] to together with an operation and the
+[01:39:55] operation is called
+[01:39:58] blob uh of a top space is the set well
+[01:40:02] what's the set it's the set Pi 1 and Pi
+[01:40:06] 1 is the well it's the fundamental group
+[01:40:09] at a point to be precise at a point is
+[01:40:13] the set Pi 1 at a point is the loops at
+[01:40:16] that
+[01:40:17] point quotient space the homotopy
+[01:40:26] intuitiv is very clear ignore everything
+[01:40:28] that can be continuously
+[01:40:30] deformed okay is the loops but under
+[01:40:34] identification of all the loops that are
+[01:40:36] homotopic to each
+[01:40:38] other
+[01:40:40] together with the blop operation and
+[01:40:44] blop takes you from PI 1 P cross pi1 P
+[01:40:48] to Pi 1 p as it should and so Pi 1
+[01:40:52] consists of equ evence classes of Loops
+[01:40:55] because this is a quotient space the
+[01:40:57] quotient space is of course I remind you
+[01:41:00] is the set of all equivalent classes of
+[01:41:02] Loops so gamma in
+[01:41:06] LP and this is the equivalence
+[01:41:09] class with respect to the homotopy
+[01:41:13] twiddle but that's just a reminder this
+[01:41:15] says it all and so because the
+[01:41:19] fundamental group space is a quotient
+[01:41:22] space if we establish the blob operation
+[01:41:25] we might want to do this by representing
+[01:41:29] the individual Loops at the point P by
+[01:41:34] actual
+[01:41:35] loops and we Define this as the
+[01:41:39] equivalence class that you get by
+[01:41:41] concatenating the
+[01:41:43] loops it was the star operation from
+[01:41:46] before where we first went through one
+[01:41:48] and then we concatenated with the with
+[01:41:51] the next and we take the equivalence
+[01:41:53] class after that so it's a definition by
+[01:41:56] using
+[01:41:57] Representatives so obviously what you
+[01:41:59] need to do you need to check whether
+[01:42:00] it's well defined well I assure you it
+[01:42:03] is well
+[01:42:04] defined but you're invited to check at
+[01:42:08] home and so what you do have here is you
+[01:42:12] have this guy the set with this blop
+[01:42:16] operation and this blob operation is
+[01:42:18] associative
+[01:42:24] um what is the neutral
+[01:42:26] element of The Blob
+[01:42:29] operation what's the neutral
+[01:42:35] element which Delta do you have to put
+[01:42:37] here in order to get this class here
+[01:42:41] back well it's the constant curve that
+[01:42:44] always
+[01:42:45] stays where you started no so the
+[01:42:48] identity
+[01:42:49] curve uh the gamma it is the curve from
+[01:42:54] 0 to 1 0 1 to M where gamma of Lambda so
+[01:42:59] at the point P that's always base Point
+[01:43:01] P that stays at the base Point
+[01:43:05] P you can concatenate that with the
+[01:43:07] other you get the same you get the same
+[01:43:09] curve at least under
+[01:43:12] homotopy and what's the inverse element
+[01:43:16] of this
+[01:43:18] operation
+[01:43:20] well you have a curve and you want
+[01:43:23] get back if you do this blob operation
+[01:43:25] you want to get the equivalence class of
+[01:43:28] the identity
+[01:43:29] curve so how do you do that well you
+[01:43:33] choose the second curve and you run
+[01:43:35] through
+[01:43:36] it
+[01:43:40] backwards is that
+[01:43:43] true yes that's true you run through it
+[01:43:49] backwards so okay so you also have an
+[01:43:51] inverse
+[01:43:55] so that means you have we know nothing
+[01:43:57] about commutativity but we have a group
+[01:44:03] structure so this guy is a group it's
+[01:44:05] called the fundamental
+[01:44:07] group now an example or several examples
+[01:44:11] are in
+[01:44:15] order well the first example is uh let's
+[01:44:19] take
+[01:44:20] um let's forget about the boring
+[01:44:23] examples okay so let's start with the
+[01:44:25] interesting examples um let's take the
+[01:44:28] sphere the surface of the sphere so what
+[01:44:31] I mean by this I mean the topological
+[01:44:33] space that you get by considering say
+[01:44:36] the unit sphere in RN and pulling back
+[01:44:39] or inducing the topology from the R3
+[01:44:42] that's around it and then you get a
+[01:44:44] topological space you then forget about
+[01:44:46] all the unit business and so on you only
+[01:44:48] think about the topology it's the
+[01:44:50] surface of the sphere now I go to a
+[01:44:52] point p
+[01:44:54] and I make a loop loop
+[01:44:59] okay how does this Loop differ from any
+[01:45:03] other loop I
+[01:45:04] have by differing I mean up to homotopy
+[01:45:08] the answer is all the loops are
+[01:45:10] homotopic to each other okay so that
+[01:45:14] means the equivalence classes the
+[01:45:18] set Pi 1 consists of just one element
+[01:45:23] and in particular they're all homotopic
+[01:45:25] to the
+[01:45:28] identity so to the curve that stays
+[01:45:31] always at the point P there's only one
+[01:45:35] class in there the group consists of one
+[01:45:38] element a one element
+[01:45:43] group and that is its own
+[01:45:46] inverse you need you know a group always
+[01:45:48] needs at least one element because there
+[01:45:50] is the existence of a neutral element
+[01:45:55] okay so that's very simple that's a very
+[01:45:57] simple fundamental group now let's do
+[01:46:00] something slightly more interesting
+[01:46:03] let's take the so-called two tus haven't
+[01:46:06] told you what the Taurus is well now I
+[01:46:08] do the Taurus is the cartisian product
+[01:46:11] of two
+[01:46:12] circles we already had the circle as a
+[01:46:14] topological space now take the cartisian
+[01:46:17] product of the sets equip the sets with
+[01:46:20] the product topology and you got the
+[01:46:25] topological Taurus well
+[01:46:28] um WR here top top I can draw picture of
+[01:46:34] the Taurus it's the surface of the
+[01:46:36] stut okay um by the way up here it
+[01:46:40] wouldn't have made the slightest
+[01:46:42] difference um if I had drawn the sphere
+[01:46:46] like this because shape is something
+[01:46:50] that is an intuition of ours but
+[01:46:53] topology doesn't provide a shape because
+[01:46:57] it's two spaces of the same of different
+[01:47:01] shapes like these two are actually
+[01:47:04] homeomorphic so through the glasses of
+[01:47:06] topology they're the same it's just the
+[01:47:09] artifact of my presentation of these
+[01:47:11] spaces on the Blackboard that makes them
+[01:47:13] look different and they're
+[01:47:15] homeomorphic if you wish and uh well
+[01:47:18] obviously if they're homeomorphic they
+[01:47:20] must share all their topological
+[01:47:22] properties this is compact this is
+[01:47:24] compact this is connected this is
+[01:47:25] connected this is path connected this is
+[01:47:27] path connected um uh it has fundamental
+[01:47:30] group just consisting of the identity
+[01:47:33] and so on so now here we have the Taurus
+[01:47:35] and now I start at a point P
+[01:47:39] now how many different well maybe we
+[01:47:42] should have first started with example C
+[01:47:44] we come back to to to B and we take the
+[01:47:48] cylinder and the cylinder is just the
+[01:47:51] product of the real real line with the
+[01:47:54] circle now the circle we already had as
+[01:47:56] a topological space the real line we
+[01:47:57] equip it with the product topology and
+[01:48:00] this is well
+[01:48:02] actually you know how this cylinder
+[01:48:05] looks like and of course it never ends
+[01:48:07] is the cylinder it goes like this now if
+[01:48:11] I have a point P here I can look at a
+[01:48:16] loop that just looks like this right so
+[01:48:19] the identity is again in there because
+[01:48:21] you can contract this to the identity
+[01:48:23] that's
+[01:48:24] homotopic now however I can also go up
+[01:48:28] here and then on the
+[01:48:31] back I can wind around the
+[01:48:36] cylinder now this one because the
+[01:48:39] cylinder is infinitely long intuitively
+[01:48:41] speaking I can never deform the loop
+[01:48:44] that goes around the cylinder into the
+[01:48:47] identity I don't I
+[01:48:49] can't but now I can do another thing
+[01:48:52] well I take another point but you you
+[01:48:53] see that it's in in principle it's the
+[01:48:55] same point right it's just for my
+[01:48:57] picture you can go around once and then
+[01:49:01] you go around a second time and only
+[01:49:04] then you return so you wind around the
+[01:49:06] cylinder
+[01:49:07] twice can you deform this into the curve
+[01:49:11] that winds around the cylinder only once
+[01:49:14] also not so for the cylinder you get
+[01:49:19] actually
+[01:49:21] pi isomorph moric to and then you can go
+[01:49:24] in this direction and you can go in the
+[01:49:26] other direction now an interesting
+[01:49:28] question is whether that's homotopic if
+[01:49:30] you go curve in this direction you go in
+[01:49:32] the other direction are they
+[01:49:38] homotopic I don't think so think about
+[01:49:42] it because you have to check with this
+[01:49:44] continuity map
+[01:49:47] um no I don't think so so um the
+[01:49:51] fundamental group if I'm right
+[01:49:53] here is then the set is the integers
+[01:49:57] because you can wind around to the right
+[01:49:59] you can wind around to the left and
+[01:50:01] neither of those can be transformed in
+[01:50:03] in any of the others and the
+[01:50:06] zero is the one that's the
+[01:50:09] identity and obviously if you
+[01:50:11] concatenate them then you add so as
+[01:50:17] groups the fundamental group with the
+[01:50:20] blop as a group is
+[01:50:23] isomorphic to the integers with the
+[01:50:27] addition and what does isomorphism as a
+[01:50:30] group mean well it's of course bjective
+[01:50:33] right but then it also respects the
+[01:50:35] group property so there must be a map
+[01:50:37] between these two that is bjective and
+[01:50:42] respects the group property so that
+[01:50:44] means there exists a map F from PI 1 to
+[01:50:48] Z that's
+[01:50:50] bjective and respecting the group group
+[01:50:52] property would mean you can first take
+[01:50:56] two elements Alpha and beta and blop
+[01:50:58] them and that should however be the same
+[01:51:01] as taking Alpha and taking beta and
+[01:51:05] adding them on the other side that would
+[01:51:07] be the structure preserving map if you
+[01:51:10] have a group
+[01:51:12] structure okay yeah can't we um actually
+[01:51:17] presume that we maybe take a cylinder
+[01:51:20] that hasn't got a constant radius
+[01:51:25] yeah but that
+[01:51:30] would yeah but that topologically that
+[01:51:33] wouldn't make a difference because um
+[01:51:35] you wrap around
+[01:51:37] here okay but now you can also take
+[01:51:40] another curve that goes here then wraps
+[01:51:42] around here no but those can be deformed
+[01:51:44] into each other think of strings to
+[01:51:47] really take a string go around and wrap
+[01:51:49] it around something but it's well a
+[01:51:51] string it's it's a rubber band
+[01:51:53] and then you can deform it continuously
+[01:51:55] without breaking
+[01:51:56] it okay well that's the intuition but
+[01:51:58] you should always refer to the existence
+[01:52:01] of a homotopy h that interpolates
+[01:52:04] between the curves but but topologically
+[01:52:06] this is not seen okay the difference
+[01:52:09] okay um so now let's go uh back to our
+[01:52:12] example of the Taurus well now
+[01:52:16] intuitively speaking I can rep once
+[01:52:20] twice three times around the inner hole
+[01:52:24] if you wish but I can also wrap around
+[01:52:28] this part it's like a piece of a
+[01:52:30] cylinder but anyway I also don't get out
+[01:52:33] it's not infinitely long but it's
+[01:52:35] cyclically identified right I also don't
+[01:52:38] get out so I have a count a winding
+[01:52:40] number in this direction and quite
+[01:52:43] independently of that I have a winding
+[01:52:45] number in the other direction around
+[01:52:48] well here one's around here and then
+[01:52:50] runs around here so here the fundamental
+[01:52:53] group uh will consist of this will be
+[01:52:57] the cartisian product of these and um
+[01:53:00] well as groups so if you then take uh
+[01:53:03] the fundament okay hang on uh so I
+[01:53:06] should write sorry this was the
+[01:53:07] fundamental group is this right um and
+[01:53:11] uh if you take the product here the blob
+[01:53:14] here I think the blob here corresponds
+[01:53:17] to the pair wise addition here because
+[01:53:20] you can go around n times in this
+[01:53:22] Direction then you add or you
+[01:53:24] concatenate with that direction and you
+[01:53:26] go around this but it then doesn't
+[01:53:27] matter with which order and so on so uh
+[01:53:30] I think the um the fundamental group of
+[01:53:32] the Taurus is this okay and so
+[01:53:36] immediately you see this group is a
+[01:53:39] different group from that group so the
+[01:53:42] two spere has a different fundamental
+[01:53:45] group than the Taurus does so they can
+[01:53:48] never be
+[01:53:50] homeomorphic because the groups are
+[01:53:52] constru contracted from the topology
+[01:53:54] alone from the topology alone okay they
+[01:53:57] cannot be homomorphic uh neither can the
+[01:53:59] cylinder be homeomorphic to the Taurus
+[01:54:02] or the cylinder to the uh to the sphere
+[01:54:05] and so on but
+[01:54:09] again but
+[01:54:14] again no
+[01:54:17] collection of
+[01:54:20] topological invariance you can also call
+[01:54:22] them topological invariant because
+[01:54:24] they're invariant under homeomorphism no
+[01:54:26] collection of topological invariants uh
+[01:54:28] let's call them house yes no compact yes
+[01:54:33] no um
+[01:54:36] connected yes no uh fundamental group
+[01:54:40] well not yes no but group
+[01:54:43] valued no such list exists such that for
+[01:54:47] two topological spaces m o and n o tdd
+[01:54:53] you could check if they're
+[01:54:56] all the same say this is the group G and
+[01:54:59] this one has it has it or doesn't has it
+[01:55:02] doesn't have it uh and also has the
+[01:55:04] group G and so on so so no such list
+[01:55:07] Here is
+[01:55:08] known such that if you check for two
+[01:55:11] spaces that all the properties the
+[01:55:14] spaces agree on all the properties no
+[01:55:17] such list is known that would then allow
+[01:55:20] to conclude
+[01:55:22] such that one could
+[01:55:26] conclude that m
+[01:55:29] o is topologically isomorphic so it's
+[01:55:34] homeomorphic to n
+[01:55:37] tdle it' be great if we had such a
+[01:55:41] classification you just had to check all
+[01:55:44] the properties but no such list is known
+[01:55:48] that is something I was referring
+[01:55:50] throughout this
+[01:55:53] uh
+[01:55:54] section and uh this also concludes our
+[01:55:59] well quick overview and selection of
+[01:56:02] topological properties that will be
+[01:56:04] important for us later on and uh
+[01:56:06] virtually all of these properties I
+[01:56:09] pointed out will make their appearance
+[01:56:12] later on in the course and of course
+[01:56:13] there are many other topological
+[01:56:15] properties but now you don't need to be
+[01:56:17] afraid of any topological property you
+[01:56:19] look up the definition it's always
+[01:56:20] defined in terms of the open set
+[01:56:23] and you know no such property can
+[01:56:26] distinguish um uh reliably non-
+[01:56:30] homomorphic
+[01:56:32] spaces see you next time
