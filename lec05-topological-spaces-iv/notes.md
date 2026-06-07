@@ -46,6 +46,8 @@ Examples:
 
 If a space is metrisable (i.e. a metric exists inducing the topology), then it is paracompact.
 
+**Theorem.** If (M, 𝒪_M) is paracompact and (N, 𝒪_N) is compact, then M × N is paracompact with the product topology.
+
 Any subcover is a refinement (each set is contained in itself), but not vice versa — a refinement can introduce new sets not in the original cover, as long as each fits inside some original set. So paracompactness is strictly weaker than compactness.
 
 ### Partitions of unity
