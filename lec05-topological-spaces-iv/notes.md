@@ -25,6 +25,8 @@ Examples:
 
 In (ℝᵈ, 𝒪_std): compact ⟺ closed and bounded.
 
+Proof sketch: (⟹) bounded: cover with balls of radius 1, finite subcover gives bounded. Closed: if p ∉ M, each point of M has an open neighbourhood not containing p (Hausdorff), finite subcover gives a neighbourhood of p disjoint from M. (⟸) bisection: enclose in a box, split in half. One half has no finite subcover. Repeat — nested boxes shrink to a point. That point is in M (closed), so covered by some open set in the cover, which covers a whole neighbourhood — contradiction.
+
 Examples:
 - [0, 1] is compact
 - ℝ is not compact (cover {(n, n+1) | n ∈ ℤ} has no finite subcover)
