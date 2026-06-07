@@ -19,3 +19,7 @@
 7. Prove that path-connected implies connected.
 
 8. Let φ: M → N be a homeomorphism and π₁(p) the fundamental group at p ∈ M. How does π₁(φ(p)) relate to π₁(p)?
+
+9. Prove: in a Hausdorff space, every convergent sequence has a unique limit point.
+
+10. Let M = ℝⁿ with the Zariski topology (closed sets = zero sets of polynomials). Show that M is T1 but not T2.
