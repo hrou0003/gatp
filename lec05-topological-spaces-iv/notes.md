@@ -36,7 +36,7 @@ Product of compact spaces is compact. By induction, any finite product of compac
 
 ### Paracompactness
 
-A refinement R of cover C: ∀U ∈ R : ∃V ∈ C : U ⊆ V. Locally finite: each point has a neighbourhood meeting only finitely many elements.
+A refinement R of cover C: ∀U ∈ R : ∃V ∈ C : U ⊆ V. **Locally finite:** for every p ∈ M, there exists an open neighbourhood U of p such that U ∩ Ũ ≠ ∅ for only finitely many Ũ ∈ C̃. Around every point, only finitely many sets in the cover "touch" that neighbourhood.
 
 **Paracompact:** every open cover has an open locally finite refinement. Compact ⟹ paracompact. Every metrisable space is paracompact (Stone's theorem).
 
