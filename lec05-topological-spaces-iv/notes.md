@@ -32,13 +32,15 @@ Examples:
 - ℝ is not compact (cover {(n, n+1) | n ∈ ℤ} has no finite subcover)
 - (0, 1) is not compact
 
-Product of compact spaces is compact.
+Product of compact spaces is compact. By induction, any finite product of compact spaces is compact (finite case of Tychonoff's theorem; the full theorem for arbitrary products requires the axiom of choice).
 
 ### Paracompactness
 
 A refinement R of cover C: ∀U ∈ R : ∃V ∈ C : U ⊆ V. Locally finite: each point has a neighbourhood meeting only finitely many elements.
 
 **Paracompact:** every open cover has an open locally finite refinement. Compact ⟹ paracompact. Every metrisable space is paracompact (Stone's theorem).
+
+Any subcover is a refinement (each set is contained in itself), but not vice versa — a refinement can introduce new sets not in the original cover, as long as each fits inside some original set. So paracompactness is strictly weaker than compactness.
 
 ### Partitions of unity
 
