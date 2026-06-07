@@ -40,6 +40,12 @@ A refinement R of cover C: ∀U ∈ R : ∃V ∈ C : U ⊆ V. **Locally finite:*
 
 **Paracompact:** every open cover has an open locally finite refinement. Compact ⟹ paracompact. Every metrisable space is paracompact (Stone's theorem).
 
+Examples:
+- (ℝᵈ, 𝒪_std) is paracompact (metrisable)
+- The Alexandrov long line L = ω₁ × [0, 1) (where ω₁ is the first uncountable ordinal) is not paracompact. Compare with ℝ = ℤ × [0, 1) which is paracompact.
+
+If a space is metrisable (i.e. a metric exists inducing the topology), then it is paracompact.
+
 Any subcover is a refinement (each set is contained in itself), but not vice versa — a refinement can introduce new sets not in the original cover, as long as each fits inside some original set. So paracompactness is strictly weaker than compactness.
 
 ### Partitions of unity
