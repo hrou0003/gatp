@@ -52,36 +52,57 @@ Any subcover is a refinement (each set is contained in itself), but not vice ver
 
 ### Partitions of unity
 
-Set F of continuous maps f: M → [0, 1] with Σ f(p) = 1 (locally finite). Subordinate to cover C if each f is supported in some U ∈ C.
+**Partition of unity subordinate to cover C:** a set F of continuous maps f: M → [0, 1] (with the induced subset topology on [0, 1]) such that:
+
+(a) **Subordination:** for every f ∈ F, there exists U ∈ C such that f(p) ≠ 0 ⟹ p ∈ U (i.e. supp(f) ⊆ U).
+
+(b) **Local finiteness + partition:** for all p ∈ M, there exists an open neighbourhood V of p such that only finitely many f₁, …, fₙ ∈ F are non-zero on V, and Σᵢ fᵢ = 1 on V.
+
+The local finiteness condition ensures the sum is finite — avoiding convergence issues.
 
 **Theorem.** Hausdorff space is paracompact ⟺ every open cover admits a subordinate partition of unity.
 
 ## 5.3 Connectedness and path-connectedness
 
-**Connected:** ¬∃ open, non-empty, disjoint A, B with M = A ∪ B. Equivalently: only ∅ and M are both open and closed.
+**Connected:** ¬∃ open, non-empty, disjoint A, B with M = A ∪ B.
+
+**Theorem.** (M, O) is connected ⟺ the only subsets that are both open and closed are ∅ and M.
+
+In a connected space, no non-trivial clopen sets exist. In a disconnected space, the separating sets A, B are both open and closed.
+
+Example: ℝ \ {0} is not connected — (−∞, 0) and (0, ∞) are both clopen in the induced topology.
 
 **Path-connected:** ∀p, q ∈ M, ∃ continuous γ: [0,1] → M with γ(0) = p, γ(1) = q.
 
 **Theorem.** Path-connected ⟹ connected. Converse false (topologist's sine curve).
 
-Example: ℝ \ {0} is not connected.
+Proof: Suppose M is path-connected but not connected. Then M = A ∪ B with A, B open, non-empty, disjoint. Pick p ∈ A, q ∈ B. There exists continuous γ: [0,1] → M with γ(0) = p, γ(1) = q. Then γ⁻¹(A) and γ⁻¹(B) are open (γ continuous), disjoint (A, B disjoint), non-empty (0 ∈ γ⁻¹(A), 1 ∈ γ⁻¹(B)), and cover [0,1]. This disconnects [0,1] — contradiction.
+
+**Topologist's sine curve:** S = {(x, sin(1/x)) | x ∈ (0, 1]} ∪ {(0, 0)} ⊂ ℝ². Connected but not path-connected. As x → 0, sin(1/x) oscillates infinitely between ±1. Any continuous path from (0,0) into the curve would need y(λ) → 0, but the curve passes through y = ±1 infinitely often near the origin — impossible.
 
 ## 5.4 Homotopy and the fundamental group
 
 ### Homotopic curves
 
-γ, δ: [0,1] → M with same endpoints are **homotopic** if ∃ continuous h: [0,1]² → M deforming γ to δ. This is an equivalence relation.
+γ, δ: [0,1] → M with same endpoints are **homotopic** if ∃ continuous h: [0,1]² → M with h(0, ·) = γ, h(1, ·) = δ. Parameters: λ ∈ [0,1] is along the curve, s ∈ [0,1] is the deformation (interpolates from γ to δ). This is an equivalence relation.
 
 ### Loop space and fundamental group
 
 L_p := {γ: [0,1] → M | continuous, γ(0) = γ(1) = p}
 
-Concatenation: (γ ∗ δ)(λ) = γ(2λ) for λ ∈ [0, 1/2], δ(2λ−1) for λ ∈ [1/2, 1].
+**Concatenation** γ ∗ δ: reparametrize to fit both loops in [0,1]. First half traverses γ, second half traverses δ:
+- (γ ∗ δ)(λ) = γ(2λ) for λ ∈ [0, 1/2]
+- (γ ∗ δ)(λ) = δ(2λ−1) for λ ∈ [1/2, 1]
 
-**Fundamental group:** π₁(p) := L_p / ∼ with [γ] • [δ] := [γ ∗ δ].
+**Fundamental group:** π₁(p) := L_p / ∼ with group operation [γ] • [δ] := [γ ∗ δ].
 
-- Identity: constant curve γ_e(λ) = p
-- Inverse: −γ(λ) = γ(1 − λ)
+- ∗ operates on actual loops (maps [0,1] → M)
+- • operates on equivalence classes (homotopy classes)
+- ~ must be compatible with ∗: if γ ~ γ' and δ ~ δ', then γ ∗ δ ~ γ' ∗ δ', so • is well-defined
+
+Identity: constant curve γ_e(λ) = p. Inverse: −γ(λ) = γ(1 − λ) (traverse backwards). Then γ ∗ (−γ) ~ γ_e — you go around the loop, then retrace your steps.
+
+The operation • is "do one loop, then the other." In the examples below, this is addition (or pairwise addition). In general, π₁ can be non-abelian — order of concatenation matters (e.g. figure-eight: π₁ is the free group on two generators).
 
 Group-valued invariant (not just boolean).
 
